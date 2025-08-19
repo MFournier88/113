@@ -5,7 +5,7 @@ var relearn_searchindex = [
     "description": "🧰 Désassemblage d’un ordinateur Ce chapitre explique comment démonter un ordinateur de manière sécuritaire et méthodique, étape par étape. Ouvrir le boîtier, retirer la carte graphique, les disques, la mémoire, jusqu’à la carte-mère : chaque composant est abordé. L’objectif est de comprendre l’architecture interne d’un PC, tout en évitant les erreurs courantes. Ce processus est indispensable pour tout technicien ou passionné souhaitant entretenir, réparer ou faire évoluer une machine.\n🔧 Inventaire des pièces 🖥️ La carte-mère La carte-mère est le composant central d’un ordinateur. Elle permet la communication entre le processeur, la mémoire, les disques, les ports USB et bien d’autres périphériques. Sa taille, ses connecteurs, son socket pour CPU, sa compatibilité avec la RAM ou encore ses ports d’extension (PCIe, SATA, USB…) sont autant d’éléments clés qui déterminent les possibilités et les performances d’un PC.",
     "tags": [],
     "title": "Matériel",
-    "uri": "/materiel/index.html"
+    "uri": "/113/materiel/index.html"
   },
   {
     "breadcrumb": "420113 - Notes \u003e Matériel",
@@ -13,7 +13,7 @@ var relearn_searchindex = [
     "description": "",
     "tags": [],
     "title": "Désassemblage",
-    "uri": "/materiel/desassemblage/index.html"
+    "uri": "/113/materiel/desassemblage/index.html"
   },
   {
     "breadcrumb": "420113 - Notes \u003e Matériel",
@@ -21,7 +21,7 @@ var relearn_searchindex = [
     "description": "",
     "tags": [],
     "title": "Pièces",
-    "uri": "/materiel/pieces/index.html"
+    "uri": "/113/materiel/pieces/index.html"
   },
   {
     "breadcrumb": "420113 - Notes \u003e Matériel",
@@ -29,7 +29,7 @@ var relearn_searchindex = [
     "description": "",
     "tags": [],
     "title": "Carte Mere",
-    "uri": "/materiel/carte-mere/index.html"
+    "uri": "/113/materiel/carte-mere/index.html"
   },
   {
     "breadcrumb": "420113 - Notes",
@@ -37,7 +37,7 @@ var relearn_searchindex = [
     "description": "",
     "tags": [],
     "title": "Categories",
-    "uri": "/categories/index.html"
+    "uri": "/113/categories/index.html"
   },
   {
     "breadcrumb": "420113 - Notes",
@@ -45,6 +45,6 @@ var relearn_searchindex = [
     "description": "",
     "tags": [],
     "title": "Tags",
-    "uri": "/tags/index.html"
+    "uri": "/113/tags/index.html"
   }
 ]

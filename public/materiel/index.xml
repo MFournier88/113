@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Matériel :: 420113 - Notes</title>
-    <link>http://localhost:1313/materiel/index.html</link>
+    <link>http://localhost:1313/113/materiel/index.html</link>
     <description>🧰 Désassemblage d’un ordinateur Ce chapitre explique comment démonter un ordinateur de manière sécuritaire et méthodique, étape par étape. Ouvrir le boîtier, retirer la carte graphique, les disques, la mémoire, jusqu’à la carte-mère : chaque composant est abordé. L’objectif est de comprendre l’architecture interne d’un PC, tout en évitant les erreurs courantes. Ce processus est indispensable pour tout technicien ou passionné souhaitant entretenir, réparer ou faire évoluer une machine.&#xA;🔧 Inventaire des pièces 🖥️ La carte-mère La carte-mère est le composant central d’un ordinateur. Elle permet la communication entre le processeur, la mémoire, les disques, les ports USB et bien d’autres périphériques. Sa taille, ses connecteurs, son socket pour CPU, sa compatibilité avec la RAM ou encore ses ports d’extension (PCIe, SATA, USB…) sont autant d’éléments clés qui déterminent les possibilités et les performances d’un PC.</description>
     <generator>Hugo</generator>
     <language>fr-ca</language>
     <lastBuildDate>Tue, 19 Aug 2025 12:38:07 -0400</lastBuildDate>
-    <atom:link href="http://localhost:1313/materiel/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/113/materiel/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Désassemblage</title>
-      <link>http://localhost:1313/materiel/desassemblage/index.html</link>
+      <link>http://localhost:1313/113/materiel/desassemblage/index.html</link>
       <pubDate>Tue, 19 Aug 2025 12:36:21 -0400</pubDate>
-      <guid>http://localhost:1313/materiel/desassemblage/index.html</guid>
+      <guid>http://localhost:1313/113/materiel/desassemblage/index.html</guid>
       <description></description>
     </item>
     <item>
       <title>Pièces</title>
-      <link>http://localhost:1313/materiel/pieces/index.html</link>
+      <link>http://localhost:1313/113/materiel/pieces/index.html</link>
       <pubDate>Tue, 19 Aug 2025 12:37:48 -0400</pubDate>
-      <guid>http://localhost:1313/materiel/pieces/index.html</guid>
+      <guid>http://localhost:1313/113/materiel/pieces/index.html</guid>
       <description></description>
     </item>
     <item>
       <title>Carte Mere</title>
-      <link>http://localhost:1313/materiel/carte-mere/index.html</link>
+      <link>http://localhost:1313/113/materiel/carte-mere/index.html</link>
       <pubDate>Tue, 19 Aug 2025 12:38:07 -0400</pubDate>
-      <guid>http://localhost:1313/materiel/carte-mere/index.html</guid>
+      <guid>http://localhost:1313/113/materiel/carte-mere/index.html</guid>
       <description></description>
     </item>
   </channel>
