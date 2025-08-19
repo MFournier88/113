@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>http://localhost:1313/materiel/index.html</loc>
+    <lastmod>2025-08-19T12:38:07-04:00</lastmod>
+  </url>
+  <url>
+    <loc>http://localhost:1313/materiel/desassemblage/index.html</loc>
+    <lastmod>2025-08-19T12:36:21-04:00</lastmod>
+  </url>
+  <url>
+    <loc>http://localhost:1313/materiel/pieces/index.html</loc>
+    <lastmod>2025-08-19T12:37:48-04:00</lastmod>
+  </url>
+  <url>
+    <loc>http://localhost:1313/materiel/carte-mere/index.html</loc>
+    <lastmod>2025-08-19T12:38:07-04:00</lastmod>
+  </url>
+  <url>
+    <loc>http://localhost:1313/categories/index.html</loc>
+  </url>
+  <url>
+    <loc>http://localhost:1313/tags/index.html</loc>
+  </url>
+</urlset>
