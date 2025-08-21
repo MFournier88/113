@@ -29,26 +29,26 @@ Les systèmes d’exploitation (SE) sont, après tout, des logiciels à la base.
     <meta itemprop="dateModified" content="2025-08-20T10:20:53-04:00">
     <meta itemprop="wordCount" content="1513">
     <title>Virtualisation :: 420113 - Notes</title>
-    <link href="/113/css/auto-complete/auto-complete.min.css?1755784191" rel="stylesheet">
-    <script src="/113/js/auto-complete/auto-complete.min.js?1755784191" defer></script>
-    <script src="/113/js/search-lunr.js?1755784191" defer></script>
-    <script src="/113/js/search.js?1755784191" defer></script>
+    <link href="/113/css/auto-complete/auto-complete.min.css?1755803036" rel="stylesheet">
+    <script src="/113/js/auto-complete/auto-complete.min.js?1755803036" defer></script>
+    <script src="/113/js/search-lunr.js?1755803036" defer></script>
+    <script src="/113/js/search.js?1755803036" defer></script>
     <script>
       window.relearn = window.relearn || {};
-      window.relearn.index_js_url="/113/searchindex.en.js?1755784191";
+      window.relearn.index_js_url="/113/searchindex.en.js?1755803036";
     </script>
-    <script src="/113/js/lunr/lunr.min.js?1755784191" defer></script>
-    <script src="/113/js/lunr/lunr.stemmer.support.min.js?1755784191" defer></script>
-    <script src="/113/js/lunr/lunr.multi.min.js?1755784191" defer></script>
-    <script src="/113/js/lunr/lunr.fr.min.js?1755784191" defer></script>
+    <script src="/113/js/lunr/lunr.min.js?1755803036" defer></script>
+    <script src="/113/js/lunr/lunr.stemmer.support.min.js?1755803036" defer></script>
+    <script src="/113/js/lunr/lunr.multi.min.js?1755803036" defer></script>
+    <script src="/113/js/lunr/lunr.fr.min.js?1755803036" defer></script>
     <script>
       window.relearn = window.relearn || {};
       window.relearn.contentLangs=['fr'];
     </script>
-    <link href="/113/fonts/fontawesome/css/fontawesome-all.min.css?1755784191" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/113/fonts/fontawesome/css/fontawesome-all.min.css?1755784191" rel="stylesheet"></noscript>
-    <link href="/113/css/perfect-scrollbar/perfect-scrollbar.min.css?1755784191" rel="stylesheet">
-    <link href="/113/css/theme.css?1755784191" rel="stylesheet">
-    <link href="/113/css/format-html.css?1755784191" rel="stylesheet" id="R-format-style">
+    <link href="/113/fonts/fontawesome/css/fontawesome-all.min.css?1755803036" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/113/fonts/fontawesome/css/fontawesome-all.min.css?1755803036" rel="stylesheet"></noscript>
+    <link href="/113/css/perfect-scrollbar/perfect-scrollbar.min.css?1755803036" rel="stylesheet">
+    <link href="/113/css/theme.css?1755803036" rel="stylesheet">
+    <link href="/113/css/format-html.css?1755803036" rel="stylesheet" id="R-format-style">
     <script>
       window.relearn = window.relearn || {};
       // configuration
@@ -136,8 +136,8 @@ Les systèmes d’exploitation (SE) sont, après tout, des logiciels à la base.
 
 <h1 id="virtualisation">Virtualisation</h1>
 
-<p><a href="#R-image-2f5028eaad016b2f77b1edd99518cfe1" class="lightbox-link"><img alt="ls" class="lazy lightbox figure-image" loading="lazy" src="/113/images/logosalad.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-2f5028eaad016b2f77b1edd99518cfe1"><img alt="ls" class="lazy lightbox lightbox-image" loading="lazy" src="/113/images/logosalad.png"></a></p>
+<p><a href="#R-image-a65aee85af37134059e0b6bb84a66622" class="lightbox-link"><img alt="ls" class="lazy lightbox figure-image" loading="lazy" src="/113/images/logosalad.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-a65aee85af37134059e0b6bb84a66622"><img alt="ls" class="lazy lightbox lightbox-image" loading="lazy" src="/113/images/logosalad.png"></a></p>
 <h2 id="quest-ce-que-la-virtualisation">Qu&rsquo;est-ce que la virtualisation?</h2>
 <p>En termes simples, la virtualisation permet d&rsquo;exécuter un système d&rsquo;exploitation (appelé <em>invité</em>) à l&rsquo;intérieur d&rsquo;un autre système d&rsquo;exploitation (qu&rsquo;on nomme <em>hôte</em>), comme on le ferait avec un programme &ldquo;ordinaire&rdquo;.</p>
 <p>Les systèmes d&rsquo;exploitation (SE) sont, après tout, des logiciels à la base. Cependant ils se distinguent des logiciels ordinaires car ils servent (entre autres) à organiser l&rsquo;utilisation des ressources matérielles d&rsquo;un PC: par exemple, lorsque 3 applications ont besoin de lire des données sur le disque, c&rsquo;est le SE qui leur donne accès à tour de rôle. Pour ce faire, les SE ont besoin d&rsquo;avoir un accès direct aux ressources matérielles d&rsquo;un PC. Mais lorsqu&rsquo;on utilise un SE dans un contexte de virtualisation, c&rsquo;est l&rsquo;<em>hôte</em> qui a accès au matériel, pas l&rsquo;<em>invité</em>.</p>
@@ -161,8 +161,8 @@ Les systèmes d’exploitation (SE) sont, après tout, des logiciels à la base.
 </ul>
 <h2 id="propriétés-dune-vm">Propriétés d&rsquo;une VM</h2>
 <p>Lors de la création de la VM, il est possible de définir plusieurs options, comme on l&rsquo;a vu plus haut. Ces paramètres restent accessibles après la création de la VM. Pour ce faire on doit aller dans le menu <code>VM -&gt; Settings</code> (aussi accessible avec un <code>clic-droit</code> sur le nom de la VM dans le panneau de gauche). Ces paramètres peuvent être modifiés, mais pour ce faire il faut éteindre la VM.</p>
-<p><a href="#R-image-1d5101681469e58013e2f0f0847cb298" class="lightbox-link"><img alt="settings" class="lazy lightbox figure-image" loading="lazy" src="/113/images/settings.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-1d5101681469e58013e2f0f0847cb298"><img alt="settings" class="lazy lightbox lightbox-image" loading="lazy" src="/113/images/settings.png"></a></p>
+<p><a href="#R-image-fae014f246ef13a1ef90dde8a90432c8" class="lightbox-link"><img alt="settings" class="lazy lightbox figure-image" loading="lazy" src="/113/images/settings.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-fae014f246ef13a1ef90dde8a90432c8"><img alt="settings" class="lazy lightbox lightbox-image" loading="lazy" src="/113/images/settings.png"></a></p>
 <p>Ce qu&rsquo;on modifie ici sont les composantes matérielles virtualisées de la VM. Pour certaines composantes (par exemple les disques, les interfaces réseau, etc.) il est possible d&rsquo;en ajouter ou d&rsquo;en supprimer (boutons <code>Add</code> et <code>Remove</code>).</p>
 <h3 id="mémoire-ou-mémoire-vive"><strong>Mémoire</strong> ou mémoire vive</h3>
 <p>Il est possible de spécifier très précisément la quantité de mémoire allouée à la VM. Attention cependant: si vous n&rsquo;en allouez pas assez, la VM risque de mal fonctionner, et si vous en allouez trop c&rsquo;est votre PC qui pourrait être affecté&hellip; La limite inférieure est généralement donnée dans les spécifications techniques du SE : par exemple, Debian recommande 2Go; Windows 11, 4Go; etc. Pour la limite supérieure, il est préférable de ne pas dépasser la quantité de RAM réelle de l&rsquo;hôte.</p>
@@ -193,11 +193,11 @@ Les systèmes d’exploitation (SE) sont, après tout, des logiciels à la base.
 <h2 id="instantanés-snapshots">Instantanés (&ldquo;Snapshots&rdquo;)</h2>
 <p>Les <em>instantanés</em> permettent de sauvegarder l&rsquo;état d&rsquo;une VM à un moment spécifique afin de pouvoir y revenir ultérieurement. Ceci est utile lorsque des modifications qu&rsquo;on apporte à la VM (par exemple, l&rsquo;installation de logiciels ou de mises à jour) entraînent des problèmes: alors on n&rsquo;a qu&rsquo;à revenir à un instantané qui correspond à l&rsquo;état de la VM avant l&rsquo;installation.</p>
 <p>Pour créer un instantané, on peut aller dans le menu <code>VM -&gt; Snapshots -&gt; Take Snapshot</code>. Il est possible de lui donner un nom et une courte description:</p>
-<p><a href="#R-image-8f6cb63ce72b6ec9f1ce2817c0e6fe70" class="lightbox-link"><img alt="snap" class="lazy lightbox figure-image" loading="lazy" src="/113/images/snap.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-8f6cb63ce72b6ec9f1ce2817c0e6fe70"><img alt="snap" class="lazy lightbox lightbox-image" loading="lazy" src="/113/images/snap.png"></a></p>
+<p><a href="#R-image-73f57919a1a1be8c35d1d39df44570ee" class="lightbox-link"><img alt="snap" class="lazy lightbox figure-image" loading="lazy" src="/113/images/snap.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-73f57919a1a1be8c35d1d39df44570ee"><img alt="snap" class="lazy lightbox lightbox-image" loading="lazy" src="/113/images/snap.png"></a></p>
 <p>Pour gérer les instantanés, il faut aller dans le menu <code>VM -&gt; Snapshots -&gt; Snapshot Manager</code>. Ceci affiche la fenêtre suivante:</p>
-<p><a href="#R-image-a3df5ef409c29cc48ea78a81d03d467f" class="lightbox-link"><img alt="snapman" class="lazy lightbox figure-image" loading="lazy" src="/113/images/snapman.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-a3df5ef409c29cc48ea78a81d03d467f"><img alt="snapman" class="lazy lightbox lightbox-image" loading="lazy" src="/113/images/snapman.png"></a></p>
+<p><a href="#R-image-21afb3c32870d0404d937e333fdec5f5" class="lightbox-link"><img alt="snapman" class="lazy lightbox figure-image" loading="lazy" src="/113/images/snapman.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-21afb3c32870d0404d937e333fdec5f5"><img alt="snapman" class="lazy lightbox lightbox-image" loading="lazy" src="/113/images/snapman.png"></a></p>
 <p>Ici on peut voir tous les instantanés qui existent pour cette VM. On peut revenir à un instantané précédent avec le bouton <code>Go To</code>, mais  également les cloner ou les supprimer.</p>
 <p>La fonction <code>AutoProtect</code>, lorsqu&rsquo;elle est activée, permet d&rsquo;automatiser la création d&rsquo;instantanés: Workstation prendra alors un instantané chaque demi-heure, chaque heure ou chaque jour, selon l&rsquo;intervalle qu&rsquo;on a choisie.</p>
 <h2 id="cloner-une-vm">Cloner une VM</h2>
@@ -317,8 +317,8 @@ Les systèmes d’exploitation (SE) sont, après tout, des logiciels à la base.
 <div id="R-footer"><p>Built with <a href="https://github.com/McShelby/hugo-theme-relearn" title="love"><i class="fas fa-heart"></i></a> by <a href="https://gohugo.io/">Hugo</a></p></div>
       </div>
     </aside>
-    <script src="/113/js/clipboard/clipboard.min.js?1755784191" defer></script>
-    <script src="/113/js/perfect-scrollbar/perfect-scrollbar.min.js?1755784191" defer></script>
-    <script src="/113/js/theme.js?1755784191" defer></script>
+    <script src="/113/js/clipboard/clipboard.min.js?1755803036" defer></script>
+    <script src="/113/js/perfect-scrollbar/perfect-scrollbar.min.js?1755803036" defer></script>
+    <script src="/113/js/theme.js?1755803036" defer></script>
   </body>
 </html>
