@@ -3,7 +3,7 @@
   <channel>
     <title>Matériel :: 420113 - Notes</title>
     <link>http://localhost:1313/113/materiel/index.html</link>
-    <description>🧰 Désassemblage d’un ordinateur Ce chapitre explique comment démonter un ordinateur de manière sécuritaire et méthodique, étape par étape. Ouvrir le boîtier, retirer la carte graphique, les disques, la mémoire, jusqu’à la carte-mère : chaque composant est abordé. L’objectif est de comprendre l’architecture interne d’un PC, tout en évitant les erreurs courantes. Ce processus est indispensable pour tout technicien ou passionné souhaitant entretenir, réparer ou faire évoluer une machine.&#xA;🔧 Inventaire des pièces 🖥️ La carte-mère La carte-mère est le composant central d’un ordinateur. Elle permet la communication entre le processeur, la mémoire, les disques, les ports USB et bien d’autres périphériques. Sa taille, ses connecteurs, son socket pour CPU, sa compatibilité avec la RAM ou encore ses ports d’extension (PCIe, SATA, USB…) sont autant d’éléments clés qui déterminent les possibilités et les performances d’un PC.</description>
+    <description>🧰 Désassemblage d’un ordinateur Ce chapitre explique comment démonter un ordinateur de manière sécuritaire et méthodique, étape par étape. Ouvrir le boîtier, retirer la carte graphique, les disques, la mémoire, jusqu’à la carte-mère : chaque composant est abordé. L’objectif est de comprendre l’architecture interne d’un PC, tout en évitant les erreurs courantes. Ce processus est indispensable pour tout technicien ou passionné souhaitant entretenir, réparer ou faire évoluer une machine.&#xA;🖥️ La carte-mère La carte-mère est le composant central d’un ordinateur. Elle permet la communication entre le processeur, la mémoire, les disques, les ports USB et bien d’autres périphériques. Sa taille, ses connecteurs, son socket pour CPU, sa compatibilité avec la RAM ou encore ses ports d’extension (PCIe, SATA, USB…) sont autant d’éléments clés qui déterminent les possibilités et les performances d’un PC.</description>
     <generator>Hugo</generator>
     <language>fr-ca</language>
     <lastBuildDate>Tue, 19 Aug 2025 12:38:07 -0400</lastBuildDate>
@@ -13,21 +13,14 @@
       <link>http://localhost:1313/113/materiel/desassemblage/index.html</link>
       <pubDate>Tue, 19 Aug 2025 12:36:21 -0400</pubDate>
       <guid>http://localhost:1313/113/materiel/desassemblage/index.html</guid>
-      <description></description>
+      <description>Instruction Mettre le bracelet antistatique Allez-y douuuuuuucement Déposer les pièces sur une surface propre et dégagée comptez les vis Le capot Le capot d’un ordinateur est la partie externe du boîtier qui sert de protection. Il recouvre les composants internes (carte mère, disque dur, etc.) et peut être retiré pour permettre l’entretien ou les modifications du matériel.</description>
     </item>
     <item>
-      <title>Pièces</title>
-      <link>http://localhost:1313/113/materiel/pieces/index.html</link>
-      <pubDate>Tue, 19 Aug 2025 12:37:48 -0400</pubDate>
-      <guid>http://localhost:1313/113/materiel/pieces/index.html</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Carte Mere</title>
+      <title>Carte Mère</title>
       <link>http://localhost:1313/113/materiel/carte-mere/index.html</link>
       <pubDate>Tue, 19 Aug 2025 12:38:07 -0400</pubDate>
       <guid>http://localhost:1313/113/materiel/carte-mere/index.html</guid>
-      <description></description>
+      <description>La carte-mère d’un ordinateur est un circuit imprimé de taille relativement grande qui permet la communication entre les différents périphériques. Certains de ceux-ci peuvent être directement soudés sur elle, mais elle dispose de nombreux ports et emplacements permettant d’en ajouter d’autres selon nos besoins.&#xA;Facteur de forme Les PC, serveurs et autres ordinateurs peuvent avoir différentes tailles; ainsi les dimensions d’une carte-mère sont déterminées par la taille et les proportions du boîtier. Ces tailles sont standardisées; en voici quelques unes parmi les plus courantes:</description>
     </item>
   </channel>
 </rss>

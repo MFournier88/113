@@ -1,6 +1,7 @@
 +++
 title = ""
 type = "home"
+weight = 1
 +++
 
 # Système d"exploitation (420-113-MV)
@@ -9,22 +10,23 @@ type = "home"
 
 ## Plans de cours
 
-:clipboard: Maxime Fournier  : [Plan de cours(TODO)]()
+:clipboard: Maxime Fournier  : <a href="/113/plan420113.pdf" target="_blank">Plan de cours</a>
 
-:clipboard: Ghazi Ben Achour  : [Plan de cours(TODO)]()
 
-:clipboard: Azeddine Ait-Ouarab  : [Plan de cours(TODO)]()
+<!-- :clipboard: Ghazi Ben Achour  : [Plan de cours(TODO)]()
+
+:clipboard: Azeddine Ait-Ouarab  : [Plan de cours(TODO)]() -->
 
 
 
 ***
 
 ## Horaire et disponibilités des enseignants
-:man_teacher: Maxime Fournier  : [Lien vers mon horaire et mes disponibilités(TODO)]()
+:man_teacher: Maxime Fournier  : <a href="/113/horaireAut2025.pdf" target="_blank">Lien vers mon horaire et mes disponibilités</a>
 
-:man_teacher: Ghazi Ben Achour  : [Lien vers mon horaire et mes disponibilités(TODO)]()
+<!-- :man_teacher: Ghazi Ben Achour  : [Lien vers mon horaire et mes disponibilités(TODO)]()
 
-:man_teacher: Azeddine Ait-Ouarab  : [Lien vers mon horaire et mes disponibilités(TODO)]()
+:man_teacher: Azeddine Ait-Ouarab  : [Lien vers mon horaire et mes disponibilités(TODO)]() -->
 
 ***
 

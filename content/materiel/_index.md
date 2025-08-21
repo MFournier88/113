@@ -10,10 +10,6 @@ Ce chapitre explique **comment démonter un ordinateur** de manière sécuritair
 
 ---
 
-## :wrench: Inventaire des pièces
-
----
-
 ## 🖥️ La carte-mère
 
 La carte-mère est le **composant central d’un ordinateur**. Elle permet la communication entre le processeur, la mémoire, les disques, les ports USB et bien d’autres périphériques. Sa taille, ses connecteurs, son **socket pour CPU**, sa compatibilité avec la **RAM** ou encore ses **ports d’extension** (PCIe, SATA, USB…) sont autant d’éléments clés qui déterminent les possibilités et les performances d’un PC.

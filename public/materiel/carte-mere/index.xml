@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Carte Mere :: 420113 - Notes</title>
+    <title>Carte Mère :: 420113 - Notes</title>
     <link>http://localhost:1313/113/materiel/carte-mere/index.html</link>
-    <description></description>
+    <description>La carte-mère d’un ordinateur est un circuit imprimé de taille relativement grande qui permet la communication entre les différents périphériques. Certains de ceux-ci peuvent être directement soudés sur elle, mais elle dispose de nombreux ports et emplacements permettant d’en ajouter d’autres selon nos besoins.&#xA;Facteur de forme Les PC, serveurs et autres ordinateurs peuvent avoir différentes tailles; ainsi les dimensions d’une carte-mère sont déterminées par la taille et les proportions du boîtier. Ces tailles sont standardisées; en voici quelques unes parmi les plus courantes:</description>
     <generator>Hugo</generator>
     <language>fr-ca</language>
     <lastBuildDate></lastBuildDate>

@@ -3,17 +3,59 @@
   <channel>
     <title>420113 - Notes</title>
     <link>http://localhost:1313/113/index.html</link>
-    <description>Système d&#34;exploitation (420-113-MV) Plans de cours 📋 Maxime Fournier : 📋 Ghazi Ben Achour : 📋 Azeddine Ait-Ouarab : Horaire et disponibilités des enseignants 👨‍🏫 Maxime Fournier : 👨‍🏫 Ghazi Ben Achour : 👨‍🏫 Azeddine Ait-Ouarab : Maxime Fournier Nom de l’évaluation Pondération Date de l’évaluation Laboratoire 1 15 % Semaine 4 Laboratoire 2 15 % Semaine 11 Laboratoire 3 15 % Semaine 14 8 Quiz dont on garde les 5 meilleures notes 25 % Semaine 2 à 13 Examen Final 30 % Semaine 15 - ESO</description>
+    <description>Système d&#34;exploitation (420-113-MV) Plans de cours 📋 Maxime Fournier : Plan de cours&#xA;Horaire et disponibilités des enseignants 👨‍🏫 Maxime Fournier : Lien vers mon horaire et mes disponibilités&#xA;Maxime Fournier Nom de l’évaluation Pondération Date de l’évaluation Laboratoire 1 15 % Semaine 4 Laboratoire 2 15 % Semaine 11 Laboratoire 3 15 % Semaine 14 8 Quiz dont on garde les 5 meilleures notes 25 % Semaine 2 à 13 Examen Final 30 % Semaine 15 - ESO</description>
     <generator>Hugo</generator>
     <language>fr-ca</language>
-    <lastBuildDate>Tue, 19 Aug 2025 12:38:07 -0400</lastBuildDate>
+    <lastBuildDate>Wed, 20 Aug 2025 10:28:01 -0400</lastBuildDate>
     <atom:link href="http://localhost:1313/113/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Matériel</title>
       <link>http://localhost:1313/113/materiel/index.html</link>
       <pubDate>Tue, 19 Aug 2025 12:38:07 -0400</pubDate>
       <guid>http://localhost:1313/113/materiel/index.html</guid>
-      <description>🧰 Désassemblage d’un ordinateur Ce chapitre explique comment démonter un ordinateur de manière sécuritaire et méthodique, étape par étape. Ouvrir le boîtier, retirer la carte graphique, les disques, la mémoire, jusqu’à la carte-mère : chaque composant est abordé. L’objectif est de comprendre l’architecture interne d’un PC, tout en évitant les erreurs courantes. Ce processus est indispensable pour tout technicien ou passionné souhaitant entretenir, réparer ou faire évoluer une machine.&#xA;🔧 Inventaire des pièces 🖥️ La carte-mère La carte-mère est le composant central d’un ordinateur. Elle permet la communication entre le processeur, la mémoire, les disques, les ports USB et bien d’autres périphériques. Sa taille, ses connecteurs, son socket pour CPU, sa compatibilité avec la RAM ou encore ses ports d’extension (PCIe, SATA, USB…) sont autant d’éléments clés qui déterminent les possibilités et les performances d’un PC.</description>
+      <description>🧰 Désassemblage d’un ordinateur Ce chapitre explique comment démonter un ordinateur de manière sécuritaire et méthodique, étape par étape. Ouvrir le boîtier, retirer la carte graphique, les disques, la mémoire, jusqu’à la carte-mère : chaque composant est abordé. L’objectif est de comprendre l’architecture interne d’un PC, tout en évitant les erreurs courantes. Ce processus est indispensable pour tout technicien ou passionné souhaitant entretenir, réparer ou faire évoluer une machine.&#xA;🖥️ La carte-mère La carte-mère est le composant central d’un ordinateur. Elle permet la communication entre le processeur, la mémoire, les disques, les ports USB et bien d’autres périphériques. Sa taille, ses connecteurs, son socket pour CPU, sa compatibilité avec la RAM ou encore ses ports d’extension (PCIe, SATA, USB…) sont autant d’éléments clés qui déterminent les possibilités et les performances d’un PC.</description>
+    </item>
+    <item>
+      <title>BIOS</title>
+      <link>http://localhost:1313/113/bios/index.html</link>
+      <pubDate>Wed, 20 Aug 2025 09:57:00 -0400</pubDate>
+      <guid>http://localhost:1313/113/bios/index.html</guid>
+      <description>Que se passe-t-il au démarrage d’un ordinateur?&#xA;Le démarrage est divisé en deux phases.&#xA;Première phase Lorsque le courant électrique atteint le CPU, celui-ci exécute le code qui se trouve dans la puce BIOS (“Basic Input-Output System). Le BIOS effectue des tests matériels de base (POST, “Power On Self-Test”). L’utilisateur peut à ce moment intervenir pour accéder aux options de configuration ou de démarrage du BIOS. Le BIOS lit une section spécifique du disque (MBR, “Master Boot Record”) qui contient la liste des partitions et les instructions pour démarrer le système d’exploitation. Ces instructions sont en fait un programme qu’on nomme Bootloader; il est possible de modifier le bootloader d’un système si on veut disposer de plus d’options au démarrage, notamment la possibilité de démarrer différentes version d’un même SE, ou encore des SE différents. Le bootloader lit sur le disque le fichier correspondant au noyau du SE à démarrer, le met en mémoire et lance son exécution. Deuxième phase Chargement des pilotes des différents périphériques Montage du système de fichiers Lancement des différents programmes du SE Accès au BIOS HP ProDesk 400 G3 Pour accéder aux fonctionnalités du BIOS il faut appuyer sur des touches spécifiques au moment du démarrage, sinon le SE sera chargé directement. Ces touches peuvent varier selon le fabricant du PC; dans le cas de HP elles sont les suivantes:</description>
+    </item>
+    <item>
+      <title>Péripherique</title>
+      <link>http://localhost:1313/113/peripherique/index.html</link>
+      <pubDate>Wed, 20 Aug 2025 10:05:08 -0400</pubDate>
+      <guid>http://localhost:1313/113/peripherique/index.html</guid>
+      <description>Définition: Se dit de toute unité constituante d’un système informatique, distincte de l’unité de traitement et de la mémoire centrale.&#xA;Type de périphériques Regarder le flux d’information!&#xA;Périphérique d’entrée : L’information provient du périphérique vers l’ordinateur.&#xA;Périphérique de sortie: L’information provient de l’ordinateur vers le périphérique.&#xA;Périphérique d’entrée et de sortie: L’information circule dans les 2 sens.&#xA;Périphérique de communication : Permet l’échange d’information entre 2 ordinateurs. Périphérique de stockage : Permet le stockage d’information. Etc. Mémoire (SSD,HDD) Terme important NVMe : C’est une interface conçue spécialement pour les SSD. Elle est plus rapide que SATA. Sur une base théorique NVMe a un potentiel de 3 000 000 IOPs (opération d’entrées/sorties par seconde) vs 150 000 pour SATA. En pratique, La différence est moins grande, mais le potentiel de NVMe reste beaucoup plus grand.</description>
+    </item>
+    <item>
+      <title>Virtualisation</title>
+      <link>http://localhost:1313/113/virtualisation/index.html</link>
+      <pubDate>Wed, 20 Aug 2025 10:20:53 -0400</pubDate>
+      <guid>http://localhost:1313/113/virtualisation/index.html</guid>
+      <description>Qu’est-ce que la virtualisation? En termes simples, la virtualisation permet d’exécuter un système d’exploitation (appelé invité) à l’intérieur d’un autre système d’exploitation (qu’on nomme hôte), comme on le ferait avec un programme “ordinaire”.&#xA;Les systèmes d’exploitation (SE) sont, après tout, des logiciels à la base. Cependant ils se distinguent des logiciels ordinaires car ils servent (entre autres) à organiser l’utilisation des ressources matérielles d’un PC: par exemple, lorsque 3 applications ont besoin de lire des données sur le disque, c’est le SE qui leur donne accès à tour de rôle. Pour ce faire, les SE ont besoin d’avoir un accès direct aux ressources matérielles d’un PC. Mais lorsqu’on utilise un SE dans un contexte de virtualisation, c’est l’hôte qui a accès au matériel, pas l’invité.</description>
+    </item>
+    <item>
+      <title>Système Exploitation</title>
+      <link>http://localhost:1313/113/systeme-exploitation/index.html</link>
+      <pubDate>Wed, 20 Aug 2025 10:13:48 -0400</pubDate>
+      <guid>http://localhost:1313/113/systeme-exploitation/index.html</guid>
+      <description>Source :&#xA;Différent système d’exploitation connus:&#xA;Windows macOS Unix Linux Chrome OS Android iOS Responsabilité: Exécution et ordonnacement des programmes&#xA;Communication entre programmes&#xA;Gestion des droits et accès&#xA;Gestion des ressources matériel de l’ordinateur&#xA;Gestion des périphériques&#xA;Manipulation des systèmes de fichiers&#xA;Gestion du réseau&#xA;Exécution et ordonnancement des programmes Le système d’exploitation est responsable de l’exécution des programmes en assignant des ressources CPU (unité centrale de traitement) aux tâches en cours d’exécution. Il gère également l’ordonnancement des processus pour garantir une utilisation efficace du CPU.</description>
+    </item>
+    <item>
+      <title>Linux</title>
+      <link>http://localhost:1313/113/orientation/index.html</link>
+      <pubDate>Wed, 20 Aug 2025 10:28:01 -0400</pubDate>
+      <guid>http://localhost:1313/113/orientation/index.html</guid>
+      <description>Linux est une famille de systèmes d’exploitation qui se caractérisent par le fait qu’ils utilisent tous le même .&#xA;Le noyau linux a été développé en 1991 sous une licence libre (“open-source”), ce qui signifie que tout le code est gratuit et disponible au public. Ceci a eu pour effet qu’il a rapidement été utilisé par des entreprises ou des particuliers qui souhaitaient développer leur propre SE, expérimenter, etc. De nombreux groupes d’utilisateurs se sont rapidement formés pour créer des systèmes d’exploitation plus complets utilisant le noyau linux: on nomme distributions ces différentes “saveurs” de linux.</description>
+    </item>
+    <item>
+      <title>Bash</title>
+      <link>http://localhost:1313/113/bash/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/113/bash/index.html</guid>
+      <description>Introduction à Bash et au Scripting Dans le monde des systèmes Unix et Linux, Bash (Bourne Again SHell) est l’un des interpréteurs de commandes les plus utilisés. Il permet aux utilisateurs d’interagir avec le système d’exploitation via une interface en ligne de commande, mais surtout, il offre la possibilité d’automatiser des tâches grâce à l’écriture de scripts.&#xA;Un script Bash est simplement un fichier contenant une suite de commandes que le système exécutera de manière séquentielle. Il s’agit d’un outil puissant pour gagner du temps, éviter les erreurs humaines et effectuer des traitements complexes de manière automatisée.</description>
     </item>
   </channel>
 </rss>

@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="fr-ca" dir="ltr" itemscope itemtype="http://schema.org/Article" data-r-output-format="html">
+  <head><script src="/113/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=113/livereload" data-no-instant defer></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="height=device-height, width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <meta name="generator" content="Hugo 0.148.2">
+    <meta name="generator" content="Relearn 8.0.0+9803d5122ebb3276acea823f476e9eb44f607862">
+    <meta name="description" content="Qu’est-ce que la virtualisation? En termes simples, la virtualisation permet d’exécuter un système d’exploitation (appelé invité) à l’intérieur d’un autre système d’exploitation (qu’on nomme hôte), comme on le ferait avec un programme “ordinaire”.
+Les systèmes d’exploitation (SE) sont, après tout, des logiciels à la base. Cependant ils se distinguent des logiciels ordinaires car ils servent (entre autres) à organiser l’utilisation des ressources matérielles d’un PC: par exemple, lorsque 3 applications ont besoin de lire des données sur le disque, c’est le SE qui leur donne accès à tour de rôle. Pour ce faire, les SE ont besoin d’avoir un accès direct aux ressources matérielles d’un PC. Mais lorsqu’on utilise un SE dans un contexte de virtualisation, c’est l’hôte qui a accès au matériel, pas l’invité.">
+    <meta name="author" content="">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Virtualisation :: 420113 - Notes">
+    <meta name="twitter:description" content="Qu’est-ce que la virtualisation? En termes simples, la virtualisation permet d’exécuter un système d’exploitation (appelé invité) à l’intérieur d’un autre système d’exploitation (qu’on nomme hôte), comme on le ferait avec un programme “ordinaire”.
+Les systèmes d’exploitation (SE) sont, après tout, des logiciels à la base. Cependant ils se distinguent des logiciels ordinaires car ils servent (entre autres) à organiser l’utilisation des ressources matérielles d’un PC: par exemple, lorsque 3 applications ont besoin de lire des données sur le disque, c’est le SE qui leur donne accès à tour de rôle. Pour ce faire, les SE ont besoin d’avoir un accès direct aux ressources matérielles d’un PC. Mais lorsqu’on utilise un SE dans un contexte de virtualisation, c’est l’hôte qui a accès au matériel, pas l’invité.">
+    <meta property="og:url" content="http://localhost:1313/113/virtualisation/index.html">
+    <meta property="og:site_name" content="420113 - Notes">
+    <meta property="og:title" content="Virtualisation :: 420113 - Notes">
+    <meta property="og:description" content="Qu’est-ce que la virtualisation? En termes simples, la virtualisation permet d’exécuter un système d’exploitation (appelé invité) à l’intérieur d’un autre système d’exploitation (qu’on nomme hôte), comme on le ferait avec un programme “ordinaire”.
+Les systèmes d’exploitation (SE) sont, après tout, des logiciels à la base. Cependant ils se distinguent des logiciels ordinaires car ils servent (entre autres) à organiser l’utilisation des ressources matérielles d’un PC: par exemple, lorsque 3 applications ont besoin de lire des données sur le disque, c’est le SE qui leur donne accès à tour de rôle. Pour ce faire, les SE ont besoin d’avoir un accès direct aux ressources matérielles d’un PC. Mais lorsqu’on utilise un SE dans un contexte de virtualisation, c’est l’hôte qui a accès au matériel, pas l’invité.">
+    <meta property="og:locale" content="fr_ca">
+    <meta property="og:type" content="article">
+    <meta property="article:section" content="420113 - Notes">
+    <meta property="article:published_time" content="2025-08-20T10:20:53-04:00">
+    <meta property="article:modified_time" content="2025-08-20T10:20:53-04:00">
+    <meta itemprop="name" content="Virtualisation :: 420113 - Notes">
+    <meta itemprop="description" content="Qu’est-ce que la virtualisation? En termes simples, la virtualisation permet d’exécuter un système d’exploitation (appelé invité) à l’intérieur d’un autre système d’exploitation (qu’on nomme hôte), comme on le ferait avec un programme “ordinaire”.
+Les systèmes d’exploitation (SE) sont, après tout, des logiciels à la base. Cependant ils se distinguent des logiciels ordinaires car ils servent (entre autres) à organiser l’utilisation des ressources matérielles d’un PC: par exemple, lorsque 3 applications ont besoin de lire des données sur le disque, c’est le SE qui leur donne accès à tour de rôle. Pour ce faire, les SE ont besoin d’avoir un accès direct aux ressources matérielles d’un PC. Mais lorsqu’on utilise un SE dans un contexte de virtualisation, c’est l’hôte qui a accès au matériel, pas l’invité.">
+    <meta itemprop="datePublished" content="2025-08-20T10:20:53-04:00">
+    <meta itemprop="dateModified" content="2025-08-20T10:20:53-04:00">
+    <meta itemprop="wordCount" content="1513">
+    <title>Virtualisation :: 420113 - Notes</title>
+    <link href="/113/css/auto-complete/auto-complete.min.css?1755784191" rel="stylesheet">
+    <script src="/113/js/auto-complete/auto-complete.min.js?1755784191" defer></script>
+    <script src="/113/js/search-lunr.js?1755784191" defer></script>
+    <script src="/113/js/search.js?1755784191" defer></script>
+    <script>
+      window.relearn = window.relearn || {};
+      window.relearn.index_js_url="/113/searchindex.en.js?1755784191";
+    </script>
+    <script src="/113/js/lunr/lunr.min.js?1755784191" defer></script>
+    <script src="/113/js/lunr/lunr.stemmer.support.min.js?1755784191" defer></script>
+    <script src="/113/js/lunr/lunr.multi.min.js?1755784191" defer></script>
+    <script src="/113/js/lunr/lunr.fr.min.js?1755784191" defer></script>
+    <script>
+      window.relearn = window.relearn || {};
+      window.relearn.contentLangs=['fr'];
+    </script>
+    <link href="/113/fonts/fontawesome/css/fontawesome-all.min.css?1755784191" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/113/fonts/fontawesome/css/fontawesome-all.min.css?1755784191" rel="stylesheet"></noscript>
+    <link href="/113/css/perfect-scrollbar/perfect-scrollbar.min.css?1755784191" rel="stylesheet">
+    <link href="/113/css/theme.css?1755784191" rel="stylesheet">
+    <link href="/113/css/format-html.css?1755784191" rel="stylesheet" id="R-format-style">
+    <script>
+      window.relearn = window.relearn || {};
+      // configuration
+      window.relearn.min = ``;
+      window.relearn.path='\/virtualisation\/index.html';
+      window.relearn.relBasePath='..';
+      window.relearn.relBaseUri='..\/..';
+      window.relearn.absBaseUri='http:\/\/localhost:1313\/113';
+      window.relearn.disableAnchorCopy=false;
+      window.relearn.disableAnchorScrolling=false;
+      window.relearn.disableInlineCopyToClipboard=false;
+      window.relearn.enableBlockCodeWrap=true;
+      // legal
+      window.relearn.getItem = (s,n) => {return s.getItem(n)};
+      window.relearn.setItem = (s,n,v) => {return s.setItem(n,v)};
+      window.relearn.removeItem = (s,n) => {return s.removeItem(n)};
+      // translations
+      window.T_Copy_to_clipboard = `Copy to clipboard`;
+      window.T_Copied_to_clipboard = `Copied to clipboard!`;
+      window.T_Copy_link_to_clipboard = `Copy link to clipboard`;
+      window.T_Link_copied_to_clipboard = `Copied link to clipboard!`;
+      window.T_Reset_view = `Reset view`;
+      window.T_View_reset = `View reset!`;
+      window.T_No_results_found = `No results found for "{0}"`;
+      window.T_N_results_found = `{1} results found for "{0}"`;
+      // variant stuff
+      window.relearn.themevariants = [ 'relearn-auto', 'zen-light', 'zen-dark', 'neon', 'learn' ];
+      window.relearn.customvariantname = "my-custom-variant";
+      window.relearn.changeVariant = function(variant) {
+        var oldVariant = document.documentElement.dataset.rThemeVariant;
+        window.relearn.setItem(window.localStorage, window.relearn.absBaseUri + "/variant", variant);
+        document.documentElement.dataset.rThemeVariant = variant;
+        if (oldVariant != variant) {
+          document.dispatchEvent( new CustomEvent('themeVariantLoaded', { detail: { variant, oldVariant } }) );
+          window.relearn.markVariant();
+        }
+      }
+      window.relearn.markVariant = function() {
+        var variant = window.relearn.getItem(window.localStorage, window.relearn.absBaseUri + "/variant");
+        document.querySelectorAll(".R-variantswitcher select").forEach((select) => {select.value = variant;});
+      }
+      window.relearn.initVariant = function() {
+        var variant = window.relearn.getItem(window.localStorage, window.relearn.absBaseUri + "/variant") ?? "";
+        if( variant == window.relearn.customvariantname ){
+        }else if( !variant || !window.relearn.themevariants.includes(variant) ){
+          variant = window.relearn.themevariants[0];
+          window.relearn.setItem(window.localStorage, window.relearn.absBaseUri + "/variant", variant);
+        }
+        document.documentElement.dataset.rThemeVariant = variant;
+      }
+      window.relearn.initVariant();
+      window.relearn.markVariant();
+    </script>
+  </head>
+  <body class="mobile-support html" data-url="/113/virtualisation/index.html">
+    <div id="R-body" class="default-animation">
+      <div id="R-body-overlay"></div>
+      <nav id="R-topbar">
+        <div class="topbar-wrapper">
+          <div class="topbar-sidebar-divider"></div>
+          <div class="topbar-area topbar-area-start" data-area="start">
+            <div class="topbar-button topbar-button-sidebar" data-content-empty="disable" data-width-s="show" data-width-m="hide" data-width-l="hide"><button class="topbar-control" onclick="toggleNav()" type="button" title="Menu (CTRL&#43;ALT&#43;n)"><i class="fa-fw fas fa-bars"></i></button>
+            </div>
+            <div class="topbar-button topbar-button-toc" data-content-empty="hide" data-width-s="show" data-width-m="show" data-width-l="show"><button class="topbar-control" onclick="toggleTopbarFlyout(this)" type="button" title="Table of Contents (CTRL&#43;ALT&#43;t)"><i class="fa-fw fas fa-list-alt"></i></button>
+            </div>
+          </div>
+          <ol class="topbar-breadcrumbs breadcrumbs highlightable" itemscope itemtype="http://schema.org/BreadcrumbList"><li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement" class=""><a itemprop="item" href="/113/index.html"><span itemprop="name">420113 - Notes</span></a><meta itemprop="position" content="1">&nbsp;>&nbsp;</li><li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement" class=""><span itemprop="name">Virtualisation</span><meta itemprop="position" content="2"></li>
+          </ol>
+          <div class="topbar-area topbar-area-end" data-area="end">
+            <div class="topbar-button topbar-button-prev" data-content-empty="disable" data-width-s="show" data-width-m="show" data-width-l="show"><a class="topbar-control" href="/113/peripherique/index.html" title="Péripherique (🡐)"><i class="fa-fw fas fa-chevron-left"></i></a>
+            </div>
+            <div class="topbar-button topbar-button-next" data-content-empty="disable" data-width-s="show" data-width-m="show" data-width-l="show"><a class="topbar-control" href="/113/systeme-exploitation/index.html" title="Système Exploitation (🡒)"><i class="fa-fw fas fa-chevron-right"></i></a>
+            </div>
+            <div class="topbar-button topbar-button-more" data-content-empty="hide" data-width-s="show" data-width-m="show" data-width-l="show"><button class="topbar-control" onclick="toggleTopbarFlyout(this)" type="button" title="More"><i class="fa-fw fas fa-ellipsis-v"></i></button>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <div id="R-main-overlay"></div>
+      <main id="R-body-inner" class="highlightable page" tabindex="-1">
+        <div class="flex-block-wrapper">
+<article class="default">
+  <header class="headline">
+  </header>
+
+<h1 id="virtualisation">Virtualisation</h1>
+
+<p><a href="#R-image-2f5028eaad016b2f77b1edd99518cfe1" class="lightbox-link"><img alt="ls" class="lazy lightbox figure-image" loading="lazy" src="/113/images/logosalad.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-2f5028eaad016b2f77b1edd99518cfe1"><img alt="ls" class="lazy lightbox lightbox-image" loading="lazy" src="/113/images/logosalad.png"></a></p>
+<h2 id="quest-ce-que-la-virtualisation">Qu&rsquo;est-ce que la virtualisation?</h2>
+<p>En termes simples, la virtualisation permet d&rsquo;exécuter un système d&rsquo;exploitation (appelé <em>invité</em>) à l&rsquo;intérieur d&rsquo;un autre système d&rsquo;exploitation (qu&rsquo;on nomme <em>hôte</em>), comme on le ferait avec un programme &ldquo;ordinaire&rdquo;.</p>
+<p>Les systèmes d&rsquo;exploitation (SE) sont, après tout, des logiciels à la base. Cependant ils se distinguent des logiciels ordinaires car ils servent (entre autres) à organiser l&rsquo;utilisation des ressources matérielles d&rsquo;un PC: par exemple, lorsque 3 applications ont besoin de lire des données sur le disque, c&rsquo;est le SE qui leur donne accès à tour de rôle. Pour ce faire, les SE ont besoin d&rsquo;avoir un accès direct aux ressources matérielles d&rsquo;un PC. Mais lorsqu&rsquo;on utilise un SE dans un contexte de virtualisation, c&rsquo;est l&rsquo;<em>hôte</em> qui a accès au matériel, pas l&rsquo;<em>invité</em>.</p>
+<p>Les logiciels de virtualisation, comme <em>VMWare Workstation</em> mais aussi <em>VirtualBox</em>, <em>Parallels</em> (sur Mac) ou <em>KVM</em> (sur linux), servent à donner un accès &ldquo;virtuel&rdquo; aux ressources matérielles d&rsquo;un système informatique: ainsi, les SE invités auront l&rsquo;impression de parler directement aux composantes matérielles, mais en réalité elles parlent à des composantes matérielles virtualisées par le logiciel. Par exemple, le disque dur d&rsquo;une machine virtuelle <em>Windows</em> invitée sera en réalité un fichier de 20 Go sur le système d&rsquo;exploitation hôte.</p>
+<p>Les usages de la virtualisation sont très nombreux, par exemple:</p>
+<ul>
+<li>Partager les ressources matérielles d&rsquo;un système afin des les utiliser à leur maximum (et diminuer les côuts)</li>
+<li>Tester des logiciels en les isolant du SE hôte</li>
+<li>Vérifier le fonctionnement d&rsquo;un programme sur différentes plateformes</li>
+<li>Faciliter la maintenance des systèmes informatiques</li>
+</ul>
+<h2 id="gestion-des-machines-virtuelles-vm">Gestion des machines virtuelles (VM)</h2>
+<p>Dans ce qui suit on se penche sur les différentes fonctionnalités de VMWare Workstation.</p>
+<p>Tout d&rsquo;abord, pour démarrer une VM, il s&rsquo;agit d&rsquo;aller dans le menu <code>VM -&gt; Power -&gt; Start Up Guest</code>.</p>
+<p>Il y a plusieurs moyens d&rsquo;arrêter une VM.</p>
+<ul>
+<li><strong>Mettre en pause</strong>: Stoppe l&rsquo;exécution de tous les processus sur la VM, sans arrêter la VM. Il est impossible de fermer <em>Workstation</em> si des VM sont dans cet état.</li>
+<li><strong>Suspendre</strong>: Met la VM en pause et sauvegarde son état matériel dans un fichier. Ceci permet de fermer <em>Workstation</em> pui de retrouver la VM dans le même état plus tard, lors d&rsquo;une autre séance de travail.</li>
+<li><strong>Éteindre</strong> (&ldquo;Shut down&rdquo;): Lance le processus d&rsquo;extinction à partir du système d&rsquo;exploitation de la VM. C&rsquo;est la manière &ldquo;propre&rdquo; d&rsquo;éteindre une VM.</li>
+<li><strong>Couper l&rsquo;alimentation</strong> (&ldquo;Power off&rdquo;): Arrête le SE de la VM sans passer par le processus normal d&rsquo;extinction. Correspond à débrancher le câble d&rsquo;un PC; ceci peut entraîner des pertes de données.</li>
+</ul>
+<h2 id="propriétés-dune-vm">Propriétés d&rsquo;une VM</h2>
+<p>Lors de la création de la VM, il est possible de définir plusieurs options, comme on l&rsquo;a vu plus haut. Ces paramètres restent accessibles après la création de la VM. Pour ce faire on doit aller dans le menu <code>VM -&gt; Settings</code> (aussi accessible avec un <code>clic-droit</code> sur le nom de la VM dans le panneau de gauche). Ces paramètres peuvent être modifiés, mais pour ce faire il faut éteindre la VM.</p>
+<p><a href="#R-image-1d5101681469e58013e2f0f0847cb298" class="lightbox-link"><img alt="settings" class="lazy lightbox figure-image" loading="lazy" src="/113/images/settings.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-1d5101681469e58013e2f0f0847cb298"><img alt="settings" class="lazy lightbox lightbox-image" loading="lazy" src="/113/images/settings.png"></a></p>
+<p>Ce qu&rsquo;on modifie ici sont les composantes matérielles virtualisées de la VM. Pour certaines composantes (par exemple les disques, les interfaces réseau, etc.) il est possible d&rsquo;en ajouter ou d&rsquo;en supprimer (boutons <code>Add</code> et <code>Remove</code>).</p>
+<h3 id="mémoire-ou-mémoire-vive"><strong>Mémoire</strong> ou mémoire vive</h3>
+<p>Il est possible de spécifier très précisément la quantité de mémoire allouée à la VM. Attention cependant: si vous n&rsquo;en allouez pas assez, la VM risque de mal fonctionner, et si vous en allouez trop c&rsquo;est votre PC qui pourrait être affecté&hellip; La limite inférieure est généralement donnée dans les spécifications techniques du SE : par exemple, Debian recommande 2Go; Windows 11, 4Go; etc. Pour la limite supérieure, il est préférable de ne pas dépasser la quantité de RAM réelle de l&rsquo;hôte.</p>
+<h3 id="processeur"><strong>Processeur</strong></h3>
+<p>On peut changer la configuration du processeur virtuel, plus précisément: le nombre de CPU virtuels et le nombre de coeurs par CPU.</p>
+<h3 id="disques"><strong>Disques</strong></h3>
+<p>Dans cette section on peut effectuer des opérations sur les disques virtuels. Ceux-ci correspondent en réalité à un fichier sur l&rsquo;hôte ayant le même nom que la VM. Quatre tâches sont possibles:</p>
+<ul>
+<li><strong>Monter</strong>: Connecter le disque sur le système hôte. Ceci est une manière d&rsquo;accéder aux fichiers de la VM à partir de votre PC (mais il y en a d&rsquo;autres plus simples).</li>
+<li><strong>Défragmenter</strong>: La défragmentation est une opération qui permet d&rsquo;améliorer les performances d&rsquo;un disque. Attention, seuls les disques utilisés par les systèmes Windows bénéficient de la défragmentation.</li>
+<li><strong>Étendre</strong>: Permet d&rsquo;augmenter l&rsquo;espace du disque virtuel. Ceci change uniquement la taille du fichier sur l&rsquo;hôte: la VM n&rsquo;utilisera pas automatiquement l&rsquo;espace nouvellement disponible. Pour que ce soit le cas il faudra utiliser un éditeur de partition à l&rsquo;intérieur de la VM.</li>
+</ul>
+<h3 id="cddvd"><strong>CD/DVD</strong></h3>
+<p>Ici on peut associer un fichier ISO au lecteur virtuel de la VM.</p>
+<h3 id="adaptateur-réseau"><strong>Adaptateur réseau</strong></h3>
+<p>Permet de choisir le type de connexion au réseau de la VM (plus de détails dans la section <em>Connexion au réseau</em>).</p>
+<h3 id="carte-son-imprimante-contrôleur-usb"><strong>Carte son, Imprimante, Contrôleur USB</strong></h3>
+<p>Donne à la VM l&rsquo;accès à ces périphériques sur l&rsquo;hôte physique.</p>
+<h3 id="affichage"><strong>Affichage</strong></h3>
+<p>Permet de définir la résolution de l&rsquo;écran sur la VM et d&rsquo;activer l&rsquo;accélération graphique.</p>
+<h2 id="connexion-au-réseau">Connexion au réseau</h2>
+<p>Il y a 3 manières de connecter un réseau à une VM. Chacun a ses avantages et ses inconvénients et découle de ce qu&rsquo;on veut faire avec la VM.</p>
+<ul>
+<li><strong>Host-only</strong>: Un réseau virtuel, isolé du réseau sur lequel l&rsquo;hôte est connecté, est créé par <em>VMWare</em>. La VM se connectera sur ce réseau virtuel: elle n&rsquo;a donc pas accès à l&rsquo;extérieur, mais s&rsquo;il existe d&rsquo;autre VM sur ce même réseau &ldquo;Host-only&rdquo;, elles pourront communiquer ensemble.</li>
+<li><strong>NAT</strong>: Un réseau virtuel est créé mais cette fois-ci <em>VMWare</em> joue le rôle de passerelle sur ce réseau, ce qui permet aux VM d&rsquo;accéder à l&rsquo;extérieur (réseau local de l&rsquo;hôte et plus).</li>
+<li><strong>Bridged</strong>: L&rsquo;interface réseau de l&rsquo;hôte est partagée avec la VM, ce qui fait que celle-ci est connectée sur le même réseau que l&rsquo;hôte. La VM apparaît donc comme un PC parmi d&rsquo;autres sur le réseau local.</li>
+</ul>
+<h2 id="instantanés-snapshots">Instantanés (&ldquo;Snapshots&rdquo;)</h2>
+<p>Les <em>instantanés</em> permettent de sauvegarder l&rsquo;état d&rsquo;une VM à un moment spécifique afin de pouvoir y revenir ultérieurement. Ceci est utile lorsque des modifications qu&rsquo;on apporte à la VM (par exemple, l&rsquo;installation de logiciels ou de mises à jour) entraînent des problèmes: alors on n&rsquo;a qu&rsquo;à revenir à un instantané qui correspond à l&rsquo;état de la VM avant l&rsquo;installation.</p>
+<p>Pour créer un instantané, on peut aller dans le menu <code>VM -&gt; Snapshots -&gt; Take Snapshot</code>. Il est possible de lui donner un nom et une courte description:</p>
+<p><a href="#R-image-8f6cb63ce72b6ec9f1ce2817c0e6fe70" class="lightbox-link"><img alt="snap" class="lazy lightbox figure-image" loading="lazy" src="/113/images/snap.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-8f6cb63ce72b6ec9f1ce2817c0e6fe70"><img alt="snap" class="lazy lightbox lightbox-image" loading="lazy" src="/113/images/snap.png"></a></p>
+<p>Pour gérer les instantanés, il faut aller dans le menu <code>VM -&gt; Snapshots -&gt; Snapshot Manager</code>. Ceci affiche la fenêtre suivante:</p>
+<p><a href="#R-image-a3df5ef409c29cc48ea78a81d03d467f" class="lightbox-link"><img alt="snapman" class="lazy lightbox figure-image" loading="lazy" src="/113/images/snapman.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-a3df5ef409c29cc48ea78a81d03d467f"><img alt="snapman" class="lazy lightbox lightbox-image" loading="lazy" src="/113/images/snapman.png"></a></p>
+<p>Ici on peut voir tous les instantanés qui existent pour cette VM. On peut revenir à un instantané précédent avec le bouton <code>Go To</code>, mais  également les cloner ou les supprimer.</p>
+<p>La fonction <code>AutoProtect</code>, lorsqu&rsquo;elle est activée, permet d&rsquo;automatiser la création d&rsquo;instantanés: Workstation prendra alors un instantané chaque demi-heure, chaque heure ou chaque jour, selon l&rsquo;intervalle qu&rsquo;on a choisie.</p>
+<h2 id="cloner-une-vm">Cloner une VM</h2>
+<p>Lorsqu&rsquo;on clone une VM, <em>Workstation</em> crée une nouvelle VM en tous points identique. Le clone peut être basé sur l&rsquo;état actuel de la VM ou encore sur un instantané de la VM.</p>
+<p>Il existe deux types de clone: les clones <strong>liés</strong> et les clones <strong>complets</strong>.</p>
+<ul>
+<li>Les clones <em>complets</em> sont une copie conforme de la VM: au moment de la copie, les fichiers de la nouvelle VM auront la même taille que ceux de l&rsquo;ancienne VM.</li>
+<li>Les clones <em>liés</em> demandent moins de ressources de stockage: dans les fichiers qui composent le clone lié, on ne conserve que la différence entre la VM originale et le clone. En contrepartie, les performances sont moins élevées qu&rsquo;avec un clone complet (<a href="https://www.vmware.com/content/dam/digitalmarketing/vmware/en/pdf/techpaper/performance/cloning-vSphere7-perf.pdf" rel="external" target="_blank"></a>)</li>
+</ul>
+<h2 id="exporter-une-vm">Exporter une VM</h2>
+<p>Il est possible de distribuer une VM afin de la déployer dans un autre hyperviseur: le format OVF (<em>Open Virtualization Format</em>) est une norme de représentation des VM supportée par la plupart des hyperviseurs et qui permet en théorie différents hyperviseurs de s&rsquo;échanger des VM (dans la réalité, ce n&rsquo;est pas si simple&hellip;).</p>
+<p>Pour exporter une VM, on doit aller dans <code>File -&gt; Export to OVF</code> et choisir le répertoire de destination.</p>
+<p>L&rsquo;exportation crée plusieurs fichiers dont les extensions seront les suivantes:</p>
+<ul>
+<li><strong>.mf</strong>: Le <em>manifeste</em>, qui contient les hachages des autres fichiers. Ces hachages permettent de vérifier s&rsquo;ils sont en bon état.</li>
+<li><strong>.ovf</strong>: Un fichier au format XML qui contient tous les paramètres de la VM.</li>
+<li><strong>.vmdk</strong>: Le ou les fichiers qui contiennent les données du disque de la VM. Ce fichier est généralement assez volumineux.</li>
+<li><strong>.iso</strong>: Si le lecteur CD/DVD de la VM contenait un fichier <em>.iso</em>, alors celui-ci sera inclus dans l&rsquo;exportation.</li>
+</ul>
+<p>Pour importer une VM dans <em>Workstation</em>, il s&rsquo;agit de double-cliquer sur le fichier <code>.ovf</code> pour l&rsquo;ouvrir.</p>
+<h2 id="accès-au-bios">Accès au BIOS</h2>
+<p><em>VMWare Workstation</em> donne accès à un BIOS virtuel qui permet de régler les paramètres habituels d&rsquo;un BIOS (ordre d&rsquo;amorçage, mot de passe de démarrage, date et heure, etc.)</p>
+<p>Pour y accéder, allez au menu <code>File -&gt; Power -&gt; Power On to Firmware</code></p>
+<h1 id="exercices">Exercices</h1>
+<ol>
+<li>Créer un instantané(snapshot) et nommer le vieuxBackground</li>
+<li>Changer le fond d&rsquo;écran(background)</li>
+<li>Revenir au snapshot vieuxBackground et confirmer que le fond d&rsquo;écran est revenu au précédant.</li>
+</ol>
+
+  <footer class="footline">
+              <i class='fa-fw fas fa-calendar'></i> Aug 20, 2025
+  </footer>
+</article>
+        </div>
+      </main>
+    </div>
+    <aside id="R-sidebar" class="default-animation">
+      <div id="R-header-topbar" class="default-animation"></div>
+      <div id="R-header-wrapper" class="default-animation">
+        <div id="R-header" class="default-animation">
+          <a id="R-logo" class="R-default" href="/113/index.html">
+            <div class="logo-title">420113 - Notes</div>
+          </a>
+        </div>
+        <search><form action="/113/search/index.html" method="get">
+          <div class="searchbox default-animation">
+            <button class="search-detail" type="submit" title="Search (CTRL+ALT+f)"><i class="fas fa-search"></i></button>
+            <label class="a11y-only" for="R-search-by">Search</label>
+            <input data-search-input id="R-search-by" name="search-by" class="search-by" type="search" placeholder="Search...">
+            <button class="search-clear" type="button" data-search-clear="" title="Clear search"><i class="fas fa-times" title="Clear search"></i></button>
+          </div>
+        </form></search>
+      </div>
+      <div id="R-homelinks" class="default-animation homelinks">
+        <div class="R-menu-divider default-animation">
+          <hr class="padding">
+        </div>
+        <div class="R-sidebarmenu R-shortcutmenu-homelinks">
+          <ul class="space collapsible-menu">
+            <li class="" data-nav-id="/113/index.html"><a class="padding" href="/113/index.html"><i class="fa-fw fas fa-home"></i> Home</a></li>
+          </ul>
+        </div>
+        <div class="R-menu-divider default-animation">
+          <hr class="padding">
+        </div>
+        <div class="R-sidebarmenu R-shortcutmenu-headercontrols">
+          <ul class="">
+          </ul>
+        </div>
+        <div class="R-menu-divider default-animation">
+          <hr class="padding">
+        </div>
+      </div>
+      <div id="R-content-wrapper" class="highlightable">
+        <div class="R-sidebarmenu R-shortcutmenu-main">
+          <ul class="enlarge morespace collapsible-menu">
+            <li class="" data-nav-id="/113/materiel/index.html"><a class="padding" href="/113/materiel/index.html">Matériel</a><ul id="R-subsections-9e807690ebe93b13a668e078ba6e2443" class="collapsible-menu"></ul></li>
+            <li class="" data-nav-id="/113/bios/index.html"><a class="padding" href="/113/bios/index.html">BIOS</a></li>
+            <li class="" data-nav-id="/113/peripherique/index.html"><a class="padding" href="/113/peripherique/index.html">Péripherique</a></li>
+            <li class="active " data-nav-id="/113/virtualisation/index.html"><a class="padding" href="/113/virtualisation/index.html">Virtualisation</a></li>
+            <li class="" data-nav-id="/113/systeme-exploitation/index.html"><a class="padding" href="/113/systeme-exploitation/index.html">Système Exploitation</a></li>
+            <li class="" data-nav-id="/113/orientation/index.html"><a class="padding" href="/113/orientation/index.html">Linux</a></li>
+            <li class="" data-nav-id="/113/bash/index.html"><a class="padding" href="/113/bash/index.html">Bash</a></li>
+          </ul>
+        </div>
+        <div class="R-sidebarmenu R-shortcutmenu-shortcuts">
+          <ul class="space collapsible-menu">
+          </ul>
+        </div>
+        <div id="R-footer-margin"></div>
+        <div class="R-menu-divider default-animation">
+          <hr class="padding">
+        </div>
+        <div class="R-sidebarmenu R-shortcutmenu-footercontrols">
+          <ul class="">
+            <li class="R-variantswitcher">
+              <div class="padding menu-control">
+                <i class="fa-fw fas fa-paint-brush"></i>
+                <span>&nbsp;</span>
+                <div class="control-style">
+                  <label class="a11y-only" for="R-select-variant">Theme</label>
+                  <select id="R-select-variant">
+                    <option id="R-select-variant-relearn-auto" value="relearn-auto" selected>Relearn Light/Dark</option>
+                    <option id="R-select-variant-zen-light" value="zen-light">Zen Light</option>
+                    <option id="R-select-variant-zen-dark" value="zen-dark">Zen Dark</option>
+                    <option id="R-select-variant-neon" value="neon">Neon</option>
+                    <option id="R-select-variant-learn" value="learn">Learn</option>
+                  </select>
+                </div>
+                <div class="clear"></div>
+              </div>
+              <script>window.relearn.markVariant();</script>
+            </li>
+          </ul>
+        </div>
+<div id="R-footer"><p>Built with <a href="https://github.com/McShelby/hugo-theme-relearn" title="love"><i class="fas fa-heart"></i></a> by <a href="https://gohugo.io/">Hugo</a></p></div>
+      </div>
+    </aside>
+    <script src="/113/js/clipboard/clipboard.min.js?1755784191" defer></script>
+    <script src="/113/js/perfect-scrollbar/perfect-scrollbar.min.js?1755784191" defer></script>
+    <script src="/113/js/theme.js?1755784191" defer></script>
+  </body>
+</html>

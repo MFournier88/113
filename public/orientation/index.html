@@ -1,0 +1,513 @@
+<!DOCTYPE html>
+<html lang="fr-ca" dir="ltr" itemscope itemtype="http://schema.org/Article" data-r-output-format="html">
+  <head><script src="/113/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=113/livereload" data-no-instant defer></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="height=device-height, width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <meta name="generator" content="Hugo 0.148.2">
+    <meta name="generator" content="Relearn 8.0.0+9803d5122ebb3276acea823f476e9eb44f607862">
+    <meta name="description" content="Linux est une famille de systèmes d’exploitation qui se caractérisent par le fait qu’ils utilisent tous le même .
+Le noyau linux a été développé en 1991 sous une licence libre (“open-source”), ce qui signifie que tout le code est gratuit et disponible au public. Ceci a eu pour effet qu’il a rapidement été utilisé par des entreprises ou des particuliers qui souhaitaient développer leur propre SE, expérimenter, etc. De nombreux groupes d’utilisateurs se sont rapidement formés pour créer des systèmes d’exploitation plus complets utilisant le noyau linux: on nomme distributions ces différentes “saveurs” de linux.">
+    <meta name="author" content="">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Linux :: 420113 - Notes">
+    <meta name="twitter:description" content="Linux est une famille de systèmes d’exploitation qui se caractérisent par le fait qu’ils utilisent tous le même .
+Le noyau linux a été développé en 1991 sous une licence libre (“open-source”), ce qui signifie que tout le code est gratuit et disponible au public. Ceci a eu pour effet qu’il a rapidement été utilisé par des entreprises ou des particuliers qui souhaitaient développer leur propre SE, expérimenter, etc. De nombreux groupes d’utilisateurs se sont rapidement formés pour créer des systèmes d’exploitation plus complets utilisant le noyau linux: on nomme distributions ces différentes “saveurs” de linux.">
+    <meta property="og:url" content="http://localhost:1313/113/orientation/index.html">
+    <meta property="og:site_name" content="420113 - Notes">
+    <meta property="og:title" content="Linux :: 420113 - Notes">
+    <meta property="og:description" content="Linux est une famille de systèmes d’exploitation qui se caractérisent par le fait qu’ils utilisent tous le même .
+Le noyau linux a été développé en 1991 sous une licence libre (“open-source”), ce qui signifie que tout le code est gratuit et disponible au public. Ceci a eu pour effet qu’il a rapidement été utilisé par des entreprises ou des particuliers qui souhaitaient développer leur propre SE, expérimenter, etc. De nombreux groupes d’utilisateurs se sont rapidement formés pour créer des systèmes d’exploitation plus complets utilisant le noyau linux: on nomme distributions ces différentes “saveurs” de linux.">
+    <meta property="og:locale" content="fr_ca">
+    <meta property="og:type" content="article">
+    <meta property="article:section" content="420113 - Notes">
+    <meta property="article:published_time" content="2025-08-20T10:28:01-04:00">
+    <meta property="article:modified_time" content="2025-08-20T10:28:01-04:00">
+    <meta itemprop="name" content="Linux :: 420113 - Notes">
+    <meta itemprop="description" content="Linux est une famille de systèmes d’exploitation qui se caractérisent par le fait qu’ils utilisent tous le même .
+Le noyau linux a été développé en 1991 sous une licence libre (“open-source”), ce qui signifie que tout le code est gratuit et disponible au public. Ceci a eu pour effet qu’il a rapidement été utilisé par des entreprises ou des particuliers qui souhaitaient développer leur propre SE, expérimenter, etc. De nombreux groupes d’utilisateurs se sont rapidement formés pour créer des systèmes d’exploitation plus complets utilisant le noyau linux: on nomme distributions ces différentes “saveurs” de linux.">
+    <meta itemprop="datePublished" content="2025-08-20T10:28:01-04:00">
+    <meta itemprop="dateModified" content="2025-08-20T10:28:01-04:00">
+    <meta itemprop="wordCount" content="1469">
+    <title>Linux :: 420113 - Notes</title>
+    <link href="/113/css/auto-complete/auto-complete.min.css?1755784191" rel="stylesheet">
+    <script src="/113/js/auto-complete/auto-complete.min.js?1755784191" defer></script>
+    <script src="/113/js/search-lunr.js?1755784191" defer></script>
+    <script src="/113/js/search.js?1755784191" defer></script>
+    <script>
+      window.relearn = window.relearn || {};
+      window.relearn.index_js_url="/113/searchindex.en.js?1755784191";
+    </script>
+    <script src="/113/js/lunr/lunr.min.js?1755784191" defer></script>
+    <script src="/113/js/lunr/lunr.stemmer.support.min.js?1755784191" defer></script>
+    <script src="/113/js/lunr/lunr.multi.min.js?1755784191" defer></script>
+    <script src="/113/js/lunr/lunr.fr.min.js?1755784191" defer></script>
+    <script>
+      window.relearn = window.relearn || {};
+      window.relearn.contentLangs=['fr'];
+    </script>
+    <link href="/113/fonts/fontawesome/css/fontawesome-all.min.css?1755784191" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/113/fonts/fontawesome/css/fontawesome-all.min.css?1755784191" rel="stylesheet"></noscript>
+    <link href="/113/css/perfect-scrollbar/perfect-scrollbar.min.css?1755784191" rel="stylesheet">
+    <link href="/113/css/theme.css?1755784191" rel="stylesheet">
+    <link href="/113/css/format-html.css?1755784191" rel="stylesheet" id="R-format-style">
+    <script>
+      window.relearn = window.relearn || {};
+      // configuration
+      window.relearn.min = ``;
+      window.relearn.path='\/orientation\/index.html';
+      window.relearn.relBasePath='..';
+      window.relearn.relBaseUri='..\/..';
+      window.relearn.absBaseUri='http:\/\/localhost:1313\/113';
+      window.relearn.disableAnchorCopy=false;
+      window.relearn.disableAnchorScrolling=false;
+      window.relearn.disableInlineCopyToClipboard=false;
+      window.relearn.enableBlockCodeWrap=true;
+      // legal
+      window.relearn.getItem = (s,n) => {return s.getItem(n)};
+      window.relearn.setItem = (s,n,v) => {return s.setItem(n,v)};
+      window.relearn.removeItem = (s,n) => {return s.removeItem(n)};
+      // translations
+      window.T_Copy_to_clipboard = `Copy to clipboard`;
+      window.T_Copied_to_clipboard = `Copied to clipboard!`;
+      window.T_Copy_link_to_clipboard = `Copy link to clipboard`;
+      window.T_Link_copied_to_clipboard = `Copied link to clipboard!`;
+      window.T_Reset_view = `Reset view`;
+      window.T_View_reset = `View reset!`;
+      window.T_No_results_found = `No results found for "{0}"`;
+      window.T_N_results_found = `{1} results found for "{0}"`;
+      // variant stuff
+      window.relearn.themevariants = [ 'relearn-auto', 'zen-light', 'zen-dark', 'neon', 'learn' ];
+      window.relearn.customvariantname = "my-custom-variant";
+      window.relearn.changeVariant = function(variant) {
+        var oldVariant = document.documentElement.dataset.rThemeVariant;
+        window.relearn.setItem(window.localStorage, window.relearn.absBaseUri + "/variant", variant);
+        document.documentElement.dataset.rThemeVariant = variant;
+        if (oldVariant != variant) {
+          document.dispatchEvent( new CustomEvent('themeVariantLoaded', { detail: { variant, oldVariant } }) );
+          window.relearn.markVariant();
+        }
+      }
+      window.relearn.markVariant = function() {
+        var variant = window.relearn.getItem(window.localStorage, window.relearn.absBaseUri + "/variant");
+        document.querySelectorAll(".R-variantswitcher select").forEach((select) => {select.value = variant;});
+      }
+      window.relearn.initVariant = function() {
+        var variant = window.relearn.getItem(window.localStorage, window.relearn.absBaseUri + "/variant") ?? "";
+        if( variant == window.relearn.customvariantname ){
+        }else if( !variant || !window.relearn.themevariants.includes(variant) ){
+          variant = window.relearn.themevariants[0];
+          window.relearn.setItem(window.localStorage, window.relearn.absBaseUri + "/variant", variant);
+        }
+        document.documentElement.dataset.rThemeVariant = variant;
+      }
+      window.relearn.initVariant();
+      window.relearn.markVariant();
+    </script>
+  </head>
+  <body class="mobile-support html" data-url="/113/orientation/index.html">
+    <div id="R-body" class="default-animation">
+      <div id="R-body-overlay"></div>
+      <nav id="R-topbar">
+        <div class="topbar-wrapper">
+          <div class="topbar-sidebar-divider"></div>
+          <div class="topbar-area topbar-area-start" data-area="start">
+            <div class="topbar-button topbar-button-sidebar" data-content-empty="disable" data-width-s="show" data-width-m="hide" data-width-l="hide"><button class="topbar-control" onclick="toggleNav()" type="button" title="Menu (CTRL&#43;ALT&#43;n)"><i class="fa-fw fas fa-bars"></i></button>
+            </div>
+            <div class="topbar-button topbar-button-toc" data-content-empty="hide" data-width-s="show" data-width-m="show" data-width-l="show"><button class="topbar-control" onclick="toggleTopbarFlyout(this)" type="button" title="Table of Contents (CTRL&#43;ALT&#43;t)"><i class="fa-fw fas fa-list-alt"></i></button>
+            </div>
+          </div>
+          <ol class="topbar-breadcrumbs breadcrumbs highlightable" itemscope itemtype="http://schema.org/BreadcrumbList"><li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement" class=""><a itemprop="item" href="/113/index.html"><span itemprop="name">420113 - Notes</span></a><meta itemprop="position" content="1">&nbsp;>&nbsp;</li><li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement" class=""><span itemprop="name">Linux</span><meta itemprop="position" content="2"></li>
+          </ol>
+          <div class="topbar-area topbar-area-end" data-area="end">
+            <div class="topbar-button topbar-button-prev" data-content-empty="disable" data-width-s="show" data-width-m="show" data-width-l="show"><a class="topbar-control" href="/113/systeme-exploitation/index.html" title="Système Exploitation (🡐)"><i class="fa-fw fas fa-chevron-left"></i></a>
+            </div>
+            <div class="topbar-button topbar-button-next" data-content-empty="disable" data-width-s="show" data-width-m="show" data-width-l="show"><a class="topbar-control" href="/113/bash/index.html" title="Bash (🡒)"><i class="fa-fw fas fa-chevron-right"></i></a>
+            </div>
+            <div class="topbar-button topbar-button-more" data-content-empty="hide" data-width-s="show" data-width-m="show" data-width-l="show"><button class="topbar-control" onclick="toggleTopbarFlyout(this)" type="button" title="More"><i class="fa-fw fas fa-ellipsis-v"></i></button>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <div id="R-main-overlay"></div>
+      <main id="R-body-inner" class="highlightable page" tabindex="-1">
+        <div class="flex-block-wrapper">
+<article class="default">
+  <header class="headline">
+  </header>
+
+<h1 id="linux">Linux</h1>
+
+<p>Linux est une famille de systèmes d&rsquo;exploitation qui se caractérisent par le fait qu&rsquo;ils utilisent tous le même <a href="https://fr.wikipedia.org/wiki/Noyau_de_syst%C3%A8me_d%27exploitation" rel="external" target="_blank"></a>.</p>
+<p>Le noyau linux a été développé en 1991 sous une licence libre (&ldquo;open-source&rdquo;), ce qui signifie que tout le code est gratuit et disponible au public. Ceci a eu pour effet qu&rsquo;il a rapidement été utilisé par des entreprises ou des particuliers qui souhaitaient développer leur propre SE, expérimenter, etc. De nombreux groupes d&rsquo;utilisateurs se sont rapidement formés pour créer des systèmes d&rsquo;exploitation plus complets utilisant le noyau linux: on nomme <em>distributions</em> ces différentes &ldquo;saveurs&rdquo; de linux.</p>
+<p>Quelques exemples de distributions utilisant linux ou une version modifiée du noyau linux:</p>
+<ul>
+<li>Debian</li>
+<li>Android</li>
+<li>SteamOS</li>
+<li>Raspberry Pi OS</li>
+<li>WebOS (utilisée dans les téléviseurs LG)</li>
+</ul>
+<h2 id="distributions">Distributions</h2>
+<p>Une <em>distribution</em> linux est un système d&rsquo;exploitation basé sur le noyau linux. Chacun de ces SE peut contenir des programmes différents (à l&rsquo;exception du noyau&hellip;). Les distributions se différencient donc par leur apparence, la manière dont on peut y installer des logiciels, etc.</p>
+<p>Étant donné que chacun est libre de créer des nouvelles distributions, celles-ci sont très nombreuses. Il n&rsquo;existe pas de statistiques officielles sur le sujet mais on peut affirmer qu&rsquo;il existe plusieurs milliers de distributions linux.</p>
+<p>Évidemment, certaines distributions sont plus populaires que d&rsquo;autres; aussi, la plupart des distributions sont construites à partir d&rsquo;une distribution existante. Ainsi, il existe des grandes <em>familles</em> (des groupes de distributions toutes basées sur un même parent). Les principales:</p>
+<ul>
+<li>Debian</li>
+<li>Red Hat</li>
+<li>SUSE</li>
+<li>Arch</li>
+<li>Gentoo</li>
+</ul>
+<blockquote>
+<p>À VOIR: <a href="https://en.wikipedia.org/wiki/Linux_distribution#/media/File:Linux_Distribution_Timeline_21_10_2021.svg" rel="external" target="_blank"></a></p></blockquote>
+<h1 id="sorienter-dans-linux">S&rsquo;orienter dans linux</h1>
+<h2 id="invite-de-commandes">Invite de commandes</h2>
+<p>Sur la ligne de commande du terminal <em>Debian</em>, avant même d&rsquo;avoir écrit quoi que ce soit, on peut déjà voir des informations utiles:</p>
+<div class="highlight wrap-code" dir="auto"><pre tabindex="0"><code>leon@debian:~$</code></pre></div>
+<p>On appelle cette chaîne de caractères l&rsquo;<em>invite de commandes</em>. Elle contient les informations suivantes:</p>
+<ul>
+<li>Nom de l&rsquo;utilisateur courant</li>
+<li>Nom de l&rsquo;ordinateur (aussi appelé <em>hostname</em>)</li>
+<li>Répertoire courant (<code>~</code> désigne le répertoire personnel)</li>
+</ul>
+<h2 id="hiérarchie-du-système-de-fichiers">Hiérarchie du système de fichiers</h2>
+<p>En linux vous êtes toujours dans un répertoire:
+<a href="#R-image-faa7caa22e9010a3e33b714ff0d85df8" class="lightbox-link"><img alt="fslinux" class="lazy lightbox figure-image" loading="lazy" src="images/fslinux.svg" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-faa7caa22e9010a3e33b714ff0d85df8"><img alt="fslinux" class="lazy lightbox lightbox-image" loading="lazy" src="images/fslinux.svg"></a></p>
+<p>Le système de fichiers est composé de fichiers et de répertoires qui forment une hiérarchie: dans le schéma ci-dessus (qui contient seulement une partie des fichiers et répertoires dans linux), les répertoires sont en blanc et les fichiers en bleu. On nomme <strong>racine</strong> le sommet de cette hiérarchie; en linux elle est désignée par <code>/</code>.</p>
+<h2 id="chemins-absolus-et-relatifs">Chemins absolus et relatifs</h2>
+<p>Un fichier ou un répertoire peut être désigné de deux manières: son chemin <strong>absolu</strong> ou son chemin <strong>relatif</strong>.</p>
+<p>Le <em>chemin absolu</em> est le nom du fichier ou du répertoire précédé de tous ses parents jusqu&rsquo;à la racine. Le <em>chemin relatif</em> est le nom du fichier sans celui de ses parents, et n&rsquo;est valide que dans le contexte du répertoire courant (celui où on se trouve). Par exemple, pour le fichier <code>/var/log/messages</code>, son chemin relatif à partir du répertoire <code>/var</code> sera <code>log/messages</code>, et à partir de <code>/var/log</code> son chemin relatif sera <code>messages</code>.</p>
+<blockquote>
+<p><strong>ATTENTION!</strong>: Remarquez le caractère <code>/</code>. Il est toujours présent dans un chemin absolu et toujours absent dans un chemin relatif.</p></blockquote>
+<h2 id="raccourcis">Raccourcis</h2>
+<p>Aussi, on peut utiliser deux raccourcis pour désigner des répertoires en linux:</p>
+<ul>
+<li><code>.</code> pour le répertoire courant</li>
+<li><code>..</code> pour le répertoire parent</li>
+<li><code>~</code> pour le répertoire personnel</li>
+</ul>
+<p>Par exemple, si on se trouve dans le répertoire <code>/usr/bin</code>:</p>
+<ul>
+<li><code>..</code> est égal à <code>/usr</code></li>
+<li><code>.</code> est égal à <code>/usr/bin</code></li>
+<li><code>./gzip</code> est égal à <code>/usr/bin/gzip</code></li>
+<li><code>../share/gcc</code> est égal à <code>/usr/share/gcc</code></li>
+<li><code>~</code> est égal à <code>/home/UTIL</code>, où &ldquo;UTIL&rdquo; est le nom de l&rsquo;utilisateur connecté.</li>
+</ul>
+<h2 id="commandes-utiles">Commandes utiles</h2>
+<table>
+  <thead>
+      <tr>
+          <th>But</th>
+          <th>Commande</th>
+          <th>Signification</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Savoir où vous êtes</td>
+          <td><code>pwd</code></td>
+          <td><em>Present Working Directory</em></td>
+      </tr>
+      <tr>
+          <td>Changer de répertoire</td>
+          <td><code>cd</code></td>
+          <td><em>Change Directory</em></td>
+      </tr>
+      <tr>
+          <td>Voir le contenu d&rsquo;un répertoire</td>
+          <td><code>ls</code></td>
+          <td><em>List contentS</em></td>
+      </tr>
+      <tr>
+          <td>Voir le contenu d&rsquo;un fichier</td>
+          <td><code>cat</code></td>
+          <td><em>conCATenate</em></td>
+      </tr>
+      <tr>
+          <td>Connaître le type d&rsquo;un fichier</td>
+          <td><code>file</code></td>
+          <td></td>
+      </tr>
+  </tbody>
+</table>
+<blockquote>
+<p>Pour plus d&rsquo;informations sur une commande, affichez son manuel d&rsquo;utilisation en lançant <code>man</code> suivi du nom de la commande, par exemple:</p></blockquote>
+<div class="highlight wrap-code" dir="auto"><pre tabindex="0"><code>leon@debian:~$ man ls</code></pre></div>
+<h3 id="pwd"><code>pwd</code></h3>
+<p>Affiche le chemin complet du répertoire courant.</p>
+<p><em>Exemple</em></p>
+<div class="highlight wrap-code" dir="auto"><pre tabindex="0"><code>leon@debian:~$ pwd</code></pre></div>
+<h3 id="ls"><code>ls</code></h3>
+<p>Affiche le contenu d&rsquo;un répertoire. L&rsquo;<strong>argument</strong> de la commande est le chemin de ce répertoire.</p>
+<p>La commande <code>ls</code> a plusieurs <strong>options</strong>; les principales sont:</p>
+<ul>
+<li><code>-l</code> montre une liste détaillée</li>
+<li><code>-a</code> montre les fichiers cachés</li>
+</ul>
+<p>On peut combiner ces options : <code>ls -la</code></p>
+<p><em>Exemples</em></p>
+<div class="highlight wrap-code" dir="auto"><pre tabindex="0"><code>leon@debian:~$ ls Téléchargements
+leon@debian:~$ ls -l /etc
+leon@debian:~$ ls -al .</code></pre></div>
+<h3 id="cd"><code>cd</code></h3>
+<p>Change le répertoire courant. L&rsquo;argument de la commande est le répertoire où on veut aller.</p>
+<p>Si on ne donne aucun argument, on se retrouve dans notre répertoire personnel.</p>
+<p>Si on donne <code>-</code> comme argument on ira dans le dernier répertoire où on était.</p>
+<p><em>Exemples</em></p>
+<div class="highlight wrap-code" dir="auto"><pre tabindex="0"><code>leon@debian:~$ cd /etc/init.d
+leon@debian:/etc/init.d$ cd ..
+leon@debian:/etc$ cd -
+leon@debian:/etc/init.d$ cd
+leon@debian:~$</code></pre></div>
+<h3 id="file"><code>file</code></h3>
+<p>Affiche des informations sur le type d&rsquo;un fichier. L&rsquo;argument est le fichier dont on veut avoir des informations.</p>
+<p><em>Exemples</em></p>
+<div class="highlight wrap-code" dir="auto"><pre tabindex="0"><code>leon@debian:~$ file /etc/hosts
+leon@debian:/usr/bin$ file xxd</code></pre></div>
+<h3 id="cat"><code>cat</code></h3>
+<p>Affiche à l&rsquo;écran le contenu d&rsquo;un fichier. L&rsquo;argument est le fichier dont on veut afficher le contenu.
+<em>Exemples</em></p>
+<div class="highlight wrap-code" dir="auto"><pre tabindex="0"><code>leon@debian:~$ cat /etc/hosts
+leon@debian:~$ cat .bashrc</code></pre></div>
+<!-- 
+ REMARQUES: Différence de coloration entre fichiers et répertoires; ­
+ `cat` répertoire et `ls` fichier;  
+ `file` permet de voir le type de fichier  
+ `cat /dev/random`
+-->
+<h1 id="modifier-le-système-de-fichiers">Modifier le système de fichiers</h1>
+<p>Il est possible de créer, supprimer, copier ou déplacer des fichiers et des répertoires.</p>
+<h2 id="commandes-utiles-1">Commandes utiles</h2>
+<table>
+  <thead>
+      <tr>
+          <th>But</th>
+          <th>Commande</th>
+          <th>Signification</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Créer un répertoire</td>
+          <td><code>mkdir</code></td>
+          <td><em>MaKe DIRectory</em></td>
+      </tr>
+      <tr>
+          <td>Supprimer un répertoire</td>
+          <td><code>rmdir</code></td>
+          <td><em>ReMove DIRectory</em></td>
+      </tr>
+      <tr>
+          <td>Créer un fichier</td>
+          <td><code>touch</code></td>
+          <td></td>
+      </tr>
+      <tr>
+          <td>Supprimer un fichier</td>
+          <td><code>rm</code></td>
+          <td><em>ReMove</em></td>
+      </tr>
+      <tr>
+          <td>Copier un fichier</td>
+          <td><code>cp</code></td>
+          <td><em>CoPy</em></td>
+      </tr>
+      <tr>
+          <td>Déplacer un fichier</td>
+          <td><code>mv</code></td>
+          <td><em>MoVe</em></td>
+      </tr>
+      <tr>
+          <td>Créer un raccourci</td>
+          <td><code>ln</code></td>
+          <td><em>LiNk</em></td>
+      </tr>
+  </tbody>
+</table>
+<h3 id="touch"><code>touch</code></h3>
+<p>Crée un fichier vide. L&rsquo;argument de la commande est le chemin du fichier.</p>
+<p><em>Exemple</em>:</p>
+<div class="highlight wrap-code" dir="auto"><pre tabindex="0"><code>leon@debian:~$ touch unfichier.txt</code></pre></div>
+<h3 id="mkdir"><code>mkdir</code></h3>
+<p>Crée un répertoire. L&rsquo;argument de la commande est le chemin du répertoire cible.</p>
+<p>Lorsque la cible contient plus d&rsquo;un répertoire, tous les répertoires dans le chemin sauf le dernier doivent déjà exister (un seul répertoire est créé à la fois). Si on veut créer toute une série de répertoires et de sous-répertoires il faut utiliser l&rsquo;option <code>-p</code>.</p>
+<p><em>Exemples:</em></p>
+<div class="highlight wrap-code" dir="auto"><pre tabindex="0"><code>leon@debian:~$ mkdir unrep
+leon@debian:~$ mkdir /home/leon/unrep/sousrep
+leon@debian:~$ mkdir -p /home/leon/rep2/rep3/rep4</code></pre></div>
+<h3 id="rmdir"><code>rmdir</code></h3>
+<p>Supprime un répertoire. L&rsquo;argument est le chemin du répertoire à supprimer.</p>
+<p>Si le répertoire à supprimer n&rsquo;est pas vide, il ne sera pas supprimé.</p>
+<p><em>Exemple</em>:</p>
+<div class="highlight wrap-code" dir="auto"><pre tabindex="0"><code>leon@debian:~$ rmdir unrep</code></pre></div>
+<h3 id="rm"><code>rm</code></h3>
+<p>Supprime des fichiers ou des répertoires. L&rsquo;argument peut être le fichier ou (dans certains cas) le répertoire à supprimer.</p>
+<p>La commande <code>rm</code> a plusieurs options; les principales sont:</p>
+<ul>
+<li><code>-f</code> force la suppression sans demander de confirmation</li>
+<li><code>-r</code> supprime récursivement les fichiers et sous-répertoires. Lorsqu&rsquo;on utilise cette option l&rsquo;argument de <code>rm</code> doit être un réperoire.</li>
+</ul>
+<p><em>Exemples</em>:</p>
+<div class="highlight wrap-code" dir="auto"><pre tabindex="0"><code>leon@debian:~$ rm /home/leon/unfichier.txt
+leon@debian:~$ rm -r rep2</code></pre></div>
+<h3 id="cp"><code>cp</code></h3>
+<p>Copie un ou plusieurs fichiers. Le premier argument est la <strong>source</strong> et le deuxième est la <strong>cible</strong>.</p>
+<p>La commande <code>cp</code> a plusieurs options; les principales sont:</p>
+<ul>
+<li><code>-f</code> force la copie sans demander de confirmation</li>
+<li><code>-r</code> copie récursivement les fichiers et sous-répertoires</li>
+</ul>
+<p>La copie est une action qui concerne les fichiers, mais la source et la cible passés en arguments à la commande peuvent être des fichiers ou des répertoires. La commande <code>cp</code> se comporte différemment selon les cas:</p>
+<ul>
+<li>Si la source est un fichier et la cible est un répertoire, le fichier sera créé dans le répertoire cible</li>
+<li>Si la source est un répertoire, on doit utiliser l&rsquo;option <code>-r</code> pour copier son contenu</li>
+<li>Si la cible existe, son contenu sera écrasé</li>
+</ul>
+<p><em>Exemples</em>:</p>
+<div class="highlight wrap-code" dir="auto"><pre tabindex="0"><code>leon@debian:~$ cp abc def
+leon@debian:~$ cp /usr/share/dict/french .
+leon@debian:~$ cp abc rep1/
+leon@debian:~$ cp -r rep1/ rep2/</code></pre></div>
+<h3 id="mv"><code>mv</code></h3>
+<p>Déplace un ou plusieurs fichiers. Le premier argument est la <strong>source</strong> et le deuxième est la <strong>cible</strong>.</p>
+<p>La commande <code>mv</code> fonctionne comme <code>cp</code>, à quelques exceptions près:</p>
+<ul>
+<li><code>mv</code> supprime l&rsquo;original après que la copie ait été faite. Pour cette raison, on utilise souvent la commande <code>mv</code> pour renommer un fichier: il s&rsquo;agit de le déplacer dans le même répertoire que la source en lui donnant un autre nom.</li>
+<li>L&rsquo;option <code>-r</code> n&rsquo;est pas utilisée
+q
+<em>Exemples</em>:</li>
+</ul>
+<div class="highlight wrap-code" dir="auto"><pre tabindex="0"><code>leon@debian:~$ mv abc /tmp/abc
+leon@debian:~$ mv abc def
+leon@debian:~$ mv -r rep1/ rep2/</code></pre></div>
+<h3 id="ln"><code>ln</code></h3>
+<p>Crée un raccourci (un <em>lien</em>) vers une <strong>cible</strong>, qui peut être fichier ou un répertoire. Avec un seul argument (<code>ln CIBLE</code>), le lien est créé dans le répertoire courant; pour créer le lien ailleurs, on doit donner son nom comme deuxième argument (<code>ln CIBLE LIEN</code>).</p>
+<p>Il existe deux types de liens: <strong>physique</strong> et <strong>symbolique</strong>:</p>
+<ul>
+<li>Les liens <em>physiques</em> sont des noms de fichiers qui pointent sur l&rsquo;espace disque où l&rsquo;original est stocké. Tous les liens physiques vers un fichier doivent être supprimés pour qu&rsquo;un fichier soit supprimé.</li>
+<li>Les liens <em>symboliques</em> sont des noms de fichiers qui pointent sur d&rsquo;autres noms de fichiers. Si la cible est supprimée, le lien existera toujours mais ne fonctionnera plus.</li>
+</ul>
+<p>Il est préférable d&rsquo;utiliser des liens symboliques. Pour cela la commande <code>ln</code> doit être lancée avec l&rsquo;option <code>-s</code>.</p>
+<p><em>Exemples</em>:</p>
+<div class="highlight wrap-code" dir="auto"><pre tabindex="0"><code>leon@debian:~$ ln -s /etc/
+leon@debian:~$ ln -s /etc/hostname
+leon@debian:~$ ln -s /etc/hostname nomHote</code></pre></div>
+<h2 id="caractères-génériques">Caractères génériques</h2>
+<p>Dexu caractères spéciaux peuvent être utilisés lorsqu&rsquo;on désigne un fichier: <code>*</code> et <code>?</code>. Il permettent de remplacer des caractères dans les noms de fichiers ou de répertoires.</p>
+<ul>
+<li><code>?</code> remplace n&rsquo;importe quel caractère unique;</li>
+<li><code>*</code> remplace n&rsquo;importe quel groupe de caractères.</li>
+</ul>
+<p><em>Exemples</em>:</p>
+<div class="highlight wrap-code" dir="auto"><pre tabindex="0"><code>leon@debian:~$ cp dir1/* .
+leon@debian:~$ mv f* dir2/
+leon@debian:~$ cp f4 dir?</code></pre></div>
+<!-- 
+FUN TIMES: faites un snapshot et faites rm -rf /
+>
+
+<!---
+## Liens symboliques
+ln
+
+## points de montage (intro périphériques de stockage)
+mount, umount, du, df
+Démo avec insérer/supprimer CD
+Démo avec répertoire réseau
+--->
+
+  <footer class="footline">
+              <i class='fa-fw fas fa-calendar'></i> Aug 20, 2025
+  </footer>
+</article>
+        </div>
+      </main>
+    </div>
+    <aside id="R-sidebar" class="default-animation">
+      <div id="R-header-topbar" class="default-animation"></div>
+      <div id="R-header-wrapper" class="default-animation">
+        <div id="R-header" class="default-animation">
+          <a id="R-logo" class="R-default" href="/113/index.html">
+            <div class="logo-title">420113 - Notes</div>
+          </a>
+        </div>
+        <search><form action="/113/search/index.html" method="get">
+          <div class="searchbox default-animation">
+            <button class="search-detail" type="submit" title="Search (CTRL+ALT+f)"><i class="fas fa-search"></i></button>
+            <label class="a11y-only" for="R-search-by">Search</label>
+            <input data-search-input id="R-search-by" name="search-by" class="search-by" type="search" placeholder="Search...">
+            <button class="search-clear" type="button" data-search-clear="" title="Clear search"><i class="fas fa-times" title="Clear search"></i></button>
+          </div>
+        </form></search>
+      </div>
+      <div id="R-homelinks" class="default-animation homelinks">
+        <div class="R-menu-divider default-animation">
+          <hr class="padding">
+        </div>
+        <div class="R-sidebarmenu R-shortcutmenu-homelinks">
+          <ul class="space collapsible-menu">
+            <li class="" data-nav-id="/113/index.html"><a class="padding" href="/113/index.html"><i class="fa-fw fas fa-home"></i> Home</a></li>
+          </ul>
+        </div>
+        <div class="R-menu-divider default-animation">
+          <hr class="padding">
+        </div>
+        <div class="R-sidebarmenu R-shortcutmenu-headercontrols">
+          <ul class="">
+          </ul>
+        </div>
+        <div class="R-menu-divider default-animation">
+          <hr class="padding">
+        </div>
+      </div>
+      <div id="R-content-wrapper" class="highlightable">
+        <div class="R-sidebarmenu R-shortcutmenu-main">
+          <ul class="enlarge morespace collapsible-menu">
+            <li class="" data-nav-id="/113/materiel/index.html"><a class="padding" href="/113/materiel/index.html">Matériel</a><ul id="R-subsections-9e807690ebe93b13a668e078ba6e2443" class="collapsible-menu"></ul></li>
+            <li class="" data-nav-id="/113/bios/index.html"><a class="padding" href="/113/bios/index.html">BIOS</a></li>
+            <li class="" data-nav-id="/113/peripherique/index.html"><a class="padding" href="/113/peripherique/index.html">Péripherique</a></li>
+            <li class="" data-nav-id="/113/virtualisation/index.html"><a class="padding" href="/113/virtualisation/index.html">Virtualisation</a></li>
+            <li class="" data-nav-id="/113/systeme-exploitation/index.html"><a class="padding" href="/113/systeme-exploitation/index.html">Système Exploitation</a></li>
+            <li class="active " data-nav-id="/113/orientation/index.html"><a class="padding" href="/113/orientation/index.html">Linux</a></li>
+            <li class="" data-nav-id="/113/bash/index.html"><a class="padding" href="/113/bash/index.html">Bash</a></li>
+          </ul>
+        </div>
+        <div class="R-sidebarmenu R-shortcutmenu-shortcuts">
+          <ul class="space collapsible-menu">
+          </ul>
+        </div>
+        <div id="R-footer-margin"></div>
+        <div class="R-menu-divider default-animation">
+          <hr class="padding">
+        </div>
+        <div class="R-sidebarmenu R-shortcutmenu-footercontrols">
+          <ul class="">
+            <li class="R-variantswitcher">
+              <div class="padding menu-control">
+                <i class="fa-fw fas fa-paint-brush"></i>
+                <span>&nbsp;</span>
+                <div class="control-style">
+                  <label class="a11y-only" for="R-select-variant">Theme</label>
+                  <select id="R-select-variant">
+                    <option id="R-select-variant-relearn-auto" value="relearn-auto" selected>Relearn Light/Dark</option>
+                    <option id="R-select-variant-zen-light" value="zen-light">Zen Light</option>
+                    <option id="R-select-variant-zen-dark" value="zen-dark">Zen Dark</option>
+                    <option id="R-select-variant-neon" value="neon">Neon</option>
+                    <option id="R-select-variant-learn" value="learn">Learn</option>
+                  </select>
+                </div>
+                <div class="clear"></div>
+              </div>
+              <script>window.relearn.markVariant();</script>
+            </li>
+          </ul>
+        </div>
+<div id="R-footer"><p>Built with <a href="https://github.com/McShelby/hugo-theme-relearn" title="love"><i class="fas fa-heart"></i></a> by <a href="https://gohugo.io/">Hugo</a></p></div>
+      </div>
+    </aside>
+    <script src="/113/js/clipboard/clipboard.min.js?1755784191" defer></script>
+    <script src="/113/js/perfect-scrollbar/perfect-scrollbar.min.js?1755784191" defer></script>
+    <script src="/113/js/theme.js?1755784191" defer></script>
+  </body>
+</html>

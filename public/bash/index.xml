@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Bash :: 420113 - Notes</title>
+    <link>http://localhost:1313/113/bash/index.html</link>
+    <description>Introduction à Bash et au Scripting Dans le monde des systèmes Unix et Linux, Bash (Bourne Again SHell) est l’un des interpréteurs de commandes les plus utilisés. Il permet aux utilisateurs d’interagir avec le système d’exploitation via une interface en ligne de commande, mais surtout, il offre la possibilité d’automatiser des tâches grâce à l’écriture de scripts.&#xA;Un script Bash est simplement un fichier contenant une suite de commandes que le système exécutera de manière séquentielle. Il s’agit d’un outil puissant pour gagner du temps, éviter les erreurs humaines et effectuer des traitements complexes de manière automatisée.</description>
+    <generator>Hugo</generator>
+    <language>fr-ca</language>
+    <atom:link href="http://localhost:1313/113/bash/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>

@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="fr-ca" dir="ltr" itemscope itemtype="http://schema.org/Article" data-r-output-format="html">
+  <head><script src="/113/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=113/livereload" data-no-instant defer></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="height=device-height, width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <meta name="generator" content="Hugo 0.148.2">
+    <meta name="generator" content="Relearn 8.0.0+9803d5122ebb3276acea823f476e9eb44f607862">
+    <meta name="description" content="Que se passe-t-il au démarrage d’un ordinateur?
+Le démarrage est divisé en deux phases.
+Première phase Lorsque le courant électrique atteint le CPU, celui-ci exécute le code qui se trouve dans la puce BIOS (“Basic Input-Output System). Le BIOS effectue des tests matériels de base (POST, “Power On Self-Test”). L’utilisateur peut à ce moment intervenir pour accéder aux options de configuration ou de démarrage du BIOS. Le BIOS lit une section spécifique du disque (MBR, “Master Boot Record”) qui contient la liste des partitions et les instructions pour démarrer le système d’exploitation. Ces instructions sont en fait un programme qu’on nomme Bootloader; il est possible de modifier le bootloader d’un système si on veut disposer de plus d’options au démarrage, notamment la possibilité de démarrer différentes version d’un même SE, ou encore des SE différents. Le bootloader lit sur le disque le fichier correspondant au noyau du SE à démarrer, le met en mémoire et lance son exécution. Deuxième phase Chargement des pilotes des différents périphériques Montage du système de fichiers Lancement des différents programmes du SE Accès au BIOS HP ProDesk 400 G3 Pour accéder aux fonctionnalités du BIOS il faut appuyer sur des touches spécifiques au moment du démarrage, sinon le SE sera chargé directement. Ces touches peuvent varier selon le fabricant du PC; dans le cas de HP elles sont les suivantes:">
+    <meta name="author" content="">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="BIOS :: 420113 - Notes">
+    <meta name="twitter:description" content="Que se passe-t-il au démarrage d’un ordinateur?
+Le démarrage est divisé en deux phases.
+Première phase Lorsque le courant électrique atteint le CPU, celui-ci exécute le code qui se trouve dans la puce BIOS (“Basic Input-Output System). Le BIOS effectue des tests matériels de base (POST, “Power On Self-Test”). L’utilisateur peut à ce moment intervenir pour accéder aux options de configuration ou de démarrage du BIOS. Le BIOS lit une section spécifique du disque (MBR, “Master Boot Record”) qui contient la liste des partitions et les instructions pour démarrer le système d’exploitation. Ces instructions sont en fait un programme qu’on nomme Bootloader; il est possible de modifier le bootloader d’un système si on veut disposer de plus d’options au démarrage, notamment la possibilité de démarrer différentes version d’un même SE, ou encore des SE différents. Le bootloader lit sur le disque le fichier correspondant au noyau du SE à démarrer, le met en mémoire et lance son exécution. Deuxième phase Chargement des pilotes des différents périphériques Montage du système de fichiers Lancement des différents programmes du SE Accès au BIOS HP ProDesk 400 G3 Pour accéder aux fonctionnalités du BIOS il faut appuyer sur des touches spécifiques au moment du démarrage, sinon le SE sera chargé directement. Ces touches peuvent varier selon le fabricant du PC; dans le cas de HP elles sont les suivantes:">
+    <meta property="og:url" content="http://localhost:1313/113/bios/index.html">
+    <meta property="og:site_name" content="420113 - Notes">
+    <meta property="og:title" content="BIOS :: 420113 - Notes">
+    <meta property="og:description" content="Que se passe-t-il au démarrage d’un ordinateur?
+Le démarrage est divisé en deux phases.
+Première phase Lorsque le courant électrique atteint le CPU, celui-ci exécute le code qui se trouve dans la puce BIOS (“Basic Input-Output System). Le BIOS effectue des tests matériels de base (POST, “Power On Self-Test”). L’utilisateur peut à ce moment intervenir pour accéder aux options de configuration ou de démarrage du BIOS. Le BIOS lit une section spécifique du disque (MBR, “Master Boot Record”) qui contient la liste des partitions et les instructions pour démarrer le système d’exploitation. Ces instructions sont en fait un programme qu’on nomme Bootloader; il est possible de modifier le bootloader d’un système si on veut disposer de plus d’options au démarrage, notamment la possibilité de démarrer différentes version d’un même SE, ou encore des SE différents. Le bootloader lit sur le disque le fichier correspondant au noyau du SE à démarrer, le met en mémoire et lance son exécution. Deuxième phase Chargement des pilotes des différents périphériques Montage du système de fichiers Lancement des différents programmes du SE Accès au BIOS HP ProDesk 400 G3 Pour accéder aux fonctionnalités du BIOS il faut appuyer sur des touches spécifiques au moment du démarrage, sinon le SE sera chargé directement. Ces touches peuvent varier selon le fabricant du PC; dans le cas de HP elles sont les suivantes:">
+    <meta property="og:locale" content="fr_ca">
+    <meta property="og:type" content="article">
+    <meta property="article:section" content="420113 - Notes">
+    <meta property="article:published_time" content="2025-08-20T09:57:00-04:00">
+    <meta property="article:modified_time" content="2025-08-20T09:57:00-04:00">
+    <meta itemprop="name" content="BIOS :: 420113 - Notes">
+    <meta itemprop="description" content="Que se passe-t-il au démarrage d’un ordinateur?
+Le démarrage est divisé en deux phases.
+Première phase Lorsque le courant électrique atteint le CPU, celui-ci exécute le code qui se trouve dans la puce BIOS (“Basic Input-Output System). Le BIOS effectue des tests matériels de base (POST, “Power On Self-Test”). L’utilisateur peut à ce moment intervenir pour accéder aux options de configuration ou de démarrage du BIOS. Le BIOS lit une section spécifique du disque (MBR, “Master Boot Record”) qui contient la liste des partitions et les instructions pour démarrer le système d’exploitation. Ces instructions sont en fait un programme qu’on nomme Bootloader; il est possible de modifier le bootloader d’un système si on veut disposer de plus d’options au démarrage, notamment la possibilité de démarrer différentes version d’un même SE, ou encore des SE différents. Le bootloader lit sur le disque le fichier correspondant au noyau du SE à démarrer, le met en mémoire et lance son exécution. Deuxième phase Chargement des pilotes des différents périphériques Montage du système de fichiers Lancement des différents programmes du SE Accès au BIOS HP ProDesk 400 G3 Pour accéder aux fonctionnalités du BIOS il faut appuyer sur des touches spécifiques au moment du démarrage, sinon le SE sera chargé directement. Ces touches peuvent varier selon le fabricant du PC; dans le cas de HP elles sont les suivantes:">
+    <meta itemprop="datePublished" content="2025-08-20T09:57:00-04:00">
+    <meta itemprop="dateModified" content="2025-08-20T09:57:00-04:00">
+    <meta itemprop="wordCount" content="788">
+    <title>BIOS :: 420113 - Notes</title>
+    <link href="/113/css/auto-complete/auto-complete.min.css?1755784191" rel="stylesheet">
+    <script src="/113/js/auto-complete/auto-complete.min.js?1755784191" defer></script>
+    <script src="/113/js/search-lunr.js?1755784191" defer></script>
+    <script src="/113/js/search.js?1755784191" defer></script>
+    <script>
+      window.relearn = window.relearn || {};
+      window.relearn.index_js_url="/113/searchindex.en.js?1755784191";
+    </script>
+    <script src="/113/js/lunr/lunr.min.js?1755784191" defer></script>
+    <script src="/113/js/lunr/lunr.stemmer.support.min.js?1755784191" defer></script>
+    <script src="/113/js/lunr/lunr.multi.min.js?1755784191" defer></script>
+    <script src="/113/js/lunr/lunr.fr.min.js?1755784191" defer></script>
+    <script>
+      window.relearn = window.relearn || {};
+      window.relearn.contentLangs=['fr'];
+    </script>
+    <link href="/113/fonts/fontawesome/css/fontawesome-all.min.css?1755784191" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/113/fonts/fontawesome/css/fontawesome-all.min.css?1755784191" rel="stylesheet"></noscript>
+    <link href="/113/css/perfect-scrollbar/perfect-scrollbar.min.css?1755784191" rel="stylesheet">
+    <link href="/113/css/theme.css?1755784191" rel="stylesheet">
+    <link href="/113/css/format-html.css?1755784191" rel="stylesheet" id="R-format-style">
+    <script>
+      window.relearn = window.relearn || {};
+      // configuration
+      window.relearn.min = ``;
+      window.relearn.path='\/bios\/index.html';
+      window.relearn.relBasePath='..';
+      window.relearn.relBaseUri='..\/..';
+      window.relearn.absBaseUri='http:\/\/localhost:1313\/113';
+      window.relearn.disableAnchorCopy=false;
+      window.relearn.disableAnchorScrolling=false;
+      window.relearn.disableInlineCopyToClipboard=false;
+      window.relearn.enableBlockCodeWrap=true;
+      // legal
+      window.relearn.getItem = (s,n) => {return s.getItem(n)};
+      window.relearn.setItem = (s,n,v) => {return s.setItem(n,v)};
+      window.relearn.removeItem = (s,n) => {return s.removeItem(n)};
+      // translations
+      window.T_Copy_to_clipboard = `Copy to clipboard`;
+      window.T_Copied_to_clipboard = `Copied to clipboard!`;
+      window.T_Copy_link_to_clipboard = `Copy link to clipboard`;
+      window.T_Link_copied_to_clipboard = `Copied link to clipboard!`;
+      window.T_Reset_view = `Reset view`;
+      window.T_View_reset = `View reset!`;
+      window.T_No_results_found = `No results found for "{0}"`;
+      window.T_N_results_found = `{1} results found for "{0}"`;
+      // variant stuff
+      window.relearn.themevariants = [ 'relearn-auto', 'zen-light', 'zen-dark', 'neon', 'learn' ];
+      window.relearn.customvariantname = "my-custom-variant";
+      window.relearn.changeVariant = function(variant) {
+        var oldVariant = document.documentElement.dataset.rThemeVariant;
+        window.relearn.setItem(window.localStorage, window.relearn.absBaseUri + "/variant", variant);
+        document.documentElement.dataset.rThemeVariant = variant;
+        if (oldVariant != variant) {
+          document.dispatchEvent( new CustomEvent('themeVariantLoaded', { detail: { variant, oldVariant } }) );
+          window.relearn.markVariant();
+        }
+      }
+      window.relearn.markVariant = function() {
+        var variant = window.relearn.getItem(window.localStorage, window.relearn.absBaseUri + "/variant");
+        document.querySelectorAll(".R-variantswitcher select").forEach((select) => {select.value = variant;});
+      }
+      window.relearn.initVariant = function() {
+        var variant = window.relearn.getItem(window.localStorage, window.relearn.absBaseUri + "/variant") ?? "";
+        if( variant == window.relearn.customvariantname ){
+        }else if( !variant || !window.relearn.themevariants.includes(variant) ){
+          variant = window.relearn.themevariants[0];
+          window.relearn.setItem(window.localStorage, window.relearn.absBaseUri + "/variant", variant);
+        }
+        document.documentElement.dataset.rThemeVariant = variant;
+      }
+      window.relearn.initVariant();
+      window.relearn.markVariant();
+    </script>
+  </head>
+  <body class="mobile-support html" data-url="/113/bios/index.html">
+    <div id="R-body" class="default-animation">
+      <div id="R-body-overlay"></div>
+      <nav id="R-topbar">
+        <div class="topbar-wrapper">
+          <div class="topbar-sidebar-divider"></div>
+          <div class="topbar-area topbar-area-start" data-area="start">
+            <div class="topbar-button topbar-button-sidebar" data-content-empty="disable" data-width-s="show" data-width-m="hide" data-width-l="hide"><button class="topbar-control" onclick="toggleNav()" type="button" title="Menu (CTRL&#43;ALT&#43;n)"><i class="fa-fw fas fa-bars"></i></button>
+            </div>
+            <div class="topbar-button topbar-button-toc" data-content-empty="hide" data-width-s="show" data-width-m="show" data-width-l="show"><button class="topbar-control" onclick="toggleTopbarFlyout(this)" type="button" title="Table of Contents (CTRL&#43;ALT&#43;t)"><i class="fa-fw fas fa-list-alt"></i></button>
+            </div>
+          </div>
+          <ol class="topbar-breadcrumbs breadcrumbs highlightable" itemscope itemtype="http://schema.org/BreadcrumbList"><li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement" class=""><a itemprop="item" href="/113/index.html"><span itemprop="name">420113 - Notes</span></a><meta itemprop="position" content="1">&nbsp;>&nbsp;</li><li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement" class=""><span itemprop="name">BIOS</span><meta itemprop="position" content="2"></li>
+          </ol>
+          <div class="topbar-area topbar-area-end" data-area="end">
+            <div class="topbar-button topbar-button-prev" data-content-empty="disable" data-width-s="show" data-width-m="show" data-width-l="show"><a class="topbar-control" href="/113/materiel/carte-mere/index.html" title="Carte Mère (🡐)"><i class="fa-fw fas fa-chevron-left"></i></a>
+            </div>
+            <div class="topbar-button topbar-button-next" data-content-empty="disable" data-width-s="show" data-width-m="show" data-width-l="show"><a class="topbar-control" href="/113/peripherique/index.html" title="Péripherique (🡒)"><i class="fa-fw fas fa-chevron-right"></i></a>
+            </div>
+            <div class="topbar-button topbar-button-more" data-content-empty="hide" data-width-s="show" data-width-m="show" data-width-l="show"><button class="topbar-control" onclick="toggleTopbarFlyout(this)" type="button" title="More"><i class="fa-fw fas fa-ellipsis-v"></i></button>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <div id="R-main-overlay"></div>
+      <main id="R-body-inner" class="highlightable page" tabindex="-1">
+        <div class="flex-block-wrapper">
+<article class="default">
+  <header class="headline">
+  </header>
+
+<h1 id="bios">BIOS</h1>
+
+<p>Que se passe-t-il au démarrage d&rsquo;un ordinateur?</p>
+<p>Le démarrage est divisé en deux phases.</p>
+<h3 id="première-phase">Première phase</h3>
+<ol>
+<li>Lorsque le courant électrique atteint le CPU, celui-ci exécute le code qui se trouve dans la puce <em>BIOS</em> (&ldquo;Basic Input-Output System).</li>
+<li>Le BIOS effectue des tests matériels de base (<em>POST</em>, &ldquo;Power On Self-Test&rdquo;). L&rsquo;utilisateur peut à ce moment intervenir pour accéder aux options de configuration ou de démarrage du BIOS.</li>
+<li>Le BIOS lit une section spécifique du disque (<em>MBR</em>, &ldquo;Master Boot Record&rdquo;) qui contient la liste des partitions et les instructions pour démarrer le système d&rsquo;exploitation. Ces instructions sont en fait un programme qu&rsquo;on nomme <em>Bootloader</em>; il est possible de modifier le <em>bootloader</em> d&rsquo;un système si on veut disposer de plus d&rsquo;options au démarrage, notamment la possibilité de démarrer différentes version d&rsquo;un même SE, ou encore des SE différents.</li>
+<li>Le <em>bootloader</em> lit sur le disque le fichier correspondant au noyau du SE à démarrer, le met en mémoire et lance son exécution.</li>
+</ol>
+<h3 id="deuxième-phase">Deuxième phase</h3>
+<ol>
+<li>Chargement des pilotes des différents périphériques</li>
+<li>Montage du système de fichiers</li>
+<li>Lancement des différents programmes du SE</li>
+</ol>
+<h2 id="accès-au-bios-hp-prodesk-400-g3">Accès au BIOS <em>HP ProDesk 400 G3</em></h2>
+<p>Pour accéder aux fonctionnalités du BIOS il faut appuyer sur des touches spécifiques au moment du démarrage, sinon le SE sera chargé directement. Ces touches peuvent varier selon le fabricant du PC; dans le cas de <em>HP</em> elles sont les suivantes:</p>
+<table>
+  <thead>
+      <tr>
+          <th>Touche</th>
+          <th>Fonction</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>F1</td>
+          <td>Aide générale</td>
+      </tr>
+      <tr>
+          <td>F3</td>
+          <td>Aide contextuelle (si disponible)</td>
+      </tr>
+      <tr>
+          <td>F9</td>
+          <td>Options de démarrage</td>
+      </tr>
+      <tr>
+          <td>F10</td>
+          <td>Options de configuration</td>
+      </tr>
+      <tr>
+          <td>F11</td>
+          <td>Restauration du système</td>
+      </tr>
+      <tr>
+          <td>F12</td>
+          <td>Démarrage PXE (réseau)</td>
+      </tr>
+  </tbody>
+</table>
+<h2 id="onglet-principal">Onglet Principal</h2>
+<p>Donne accès aux informations matérielles sur le PC, aux outils de diagnostics et de réinitialisation. C&rsquo;est également ici que l&rsquo;on doit régler l&rsquo;horloge lorsqu&rsquo;on réinitialise le système par CMOS.</p>
+<h2 id="onglet-sécurité">Onglet Sécurité</h2>
+<p>Les éléments principaux ici touchent à l&rsquo;utilisation de mots de passe.</p>
+<p>On peut changer le mot de passe pour démarrer le PC, le mot de passe du BIOS, et définir des critères de complexité pour ces mots de passe.</p>
+<h3 id="réinitialisation-du-mot-de-passe-dadministrateur">Réinitialisation du mot de passe d&rsquo;administrateur</h3>
+<p>Sur les PC du parc informatique d&rsquo;une organisation, le BIOS est généralement protégé par mot de passe: c&rsquo;est le cas avec nos PC. Pour permettre un accès au BIOS sans mot de passe, on doit enlever le cavalier (&ldquo;jumper&rdquo;) correspondant sur la carte-mère.</p>
+<p><kbd><a href="#R-image-6d7e7a91b1e7879cc797fe7c8f10e477" class="lightbox-link"><img alt="jump" class="lazy lightbox figure-image" loading="lazy" src="/113/images/jump.jpg" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-6d7e7a91b1e7879cc797fe7c8f10e477"><img alt="jump" class="lazy lightbox lightbox-image" loading="lazy" src="/113/images/jump.jpg"></a></kbd></p>
+<p>Ensuite, démarrez le PC et appuyez sur <code>F10</code> immédiatement. Vous arriverez à la configuration du BIOS; utilisez les flèches pour accéder à l&rsquo;onglet <code>Sécurité</code>:</p>
+<p><a href="#R-image-4c4fededd43df0ba412aad5d68bba514" class="lightbox-link"><img alt="sec" class="lazy lightbox figure-image" loading="lazy" src="/113/images/sec.jpg" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-4c4fededd43df0ba412aad5d68bba514"><img alt="sec" class="lazy lightbox lightbox-image" loading="lazy" src="/113/images/sec.jpg"></a></p>
+<p>En sélectionnant <code>Création du mot de passe administrateur BIOS</code>, on vous demande de remettre en place le cavalier. Ensuite, redémarrez le PC et entrez une nouvelle fois dans le BIOS. Cette fois-ci, vous pourrez changer le mot de passe.</p>
+<p>Redémarrez encore le PC puis accédez au BIOS. On vous demandera un mot de passe; entrez celui que vous avez créé.</p>
+<h2 id="réinitialisation-du-mot-de-passe-post">Réinitialisation du mot de passe POST</h2>
+<p>La procédure est la même que pour le mot de passe BIOS, mais attention: si vous enlevez à nouveau le cavalier vous perdrez le mot de passe BIOS. En effet le cavalier efface les deux mots de passe (BIOS et POST).</p>
+<h2 id="réinitialisation-du-cmos">Réinitialisation du CMOS</h2>
+<p>Pour réinitialiser tous les paramètres du BIOS (mais pas les mots de passe), la procédure est la suivante:</p>
+<ol>
+<li>Éteindre le PC, puis le déconnecter. Ensuite, appuyez sur le bouton de démarrage pour vider complètement le bloc d&rsquo;alimentation.</li>
+<li>Appuyez 5 secondes sur le bouton CMOS:
+<a href="#R-image-606bba31ba57aa1be63db1a22082b94a" class="lightbox-link"><img alt="cmos" class="lazy lightbox figure-image" loading="lazy" src="/113/images/cmos.jpg" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-606bba31ba57aa1be63db1a22082b94a"><img alt="cmos" class="lazy lightbox lightbox-image" loading="lazy" src="/113/images/cmos.jpg"></a></li>
+<li>Rebranchez puis redémarrez le PC. Vous devrez redémarrer plusieurs fois: étant donné la réinitialisation du BIOS le système détectera quelques erreurs.</li>
+<li>Accédez au BIOS puis réglez l&rsquo;horloge en allant dans <code>Main</code> -­&gt; <code>Change Date and Time</code>.</li>
+</ol>
+<h2 id="paramètres-avancés">Paramètres avancés</h2>
+<p><a href="#R-image-2454ef5f8ad757b1dc9e602f6818ddc3" class="lightbox-link"><img alt="adv" class="lazy lightbox figure-image" loading="lazy" src="/113/images/adv.jpg" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-2454ef5f8ad757b1dc9e602f6818ddc3"><img alt="adv" class="lazy lightbox lightbox-image" loading="lazy" src="/113/images/adv.jpg"></a></p>
+<p>Cette section permet de configurer la plupart des paramètres matériels du PC.</p>
+<h3 id="boot-options--configuration-de-la-séquence-damorçage"><em>Boot Options</em> : Configuration de la séquence d&rsquo;amorçage</h3>
+<p>Une des fonctionnalités du BIOS qui est souvent utilisée est de modifier l&rsquo;ordre de démarrage: c&rsquo;est la liste de périphériques que le BIOS inspectera à la recherche d&rsquo;un système d&rsquo;exploitation à démarrer (le BIOS démarre le premier SE qu&rsquo;il détecte). Ainsi, si on met le port USB avant le disque dur dans la séquence, il sera possible de démarrer à partir d&rsquo;un SE se trouvant sur une clé USB.</p>
+<p>Allez dans la section <code>Advanced</code> puis <code>Boot Options</code>, et descendez la liste jusqu&rsquo;à <code>UEFI Boot Order</code>:</p>
+<p><a href="#R-image-0ea8f9ceca6bafef4d111cf4de37f9e1" class="lightbox-link"><img alt="bootuefi" class="lazy lightbox figure-image" loading="lazy" src="/113/images/uefiboot.jpg" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-0ea8f9ceca6bafef4d111cf4de37f9e1"><img alt="bootuefi" class="lazy lightbox lightbox-image" loading="lazy" src="/113/images/uefiboot.jpg"></a></p>
+<p>Vous pouvez monter ou descendre un périphérique dans la liste avec les flèches sur le clavier.</p>
+<h3 id="system-options"><em>System Options</em></h3>
+<p>Permet d&rsquo;activer divers paramètres du CPU et les ports PCI EXpress de la carte-mère.</p>
+<h3 id="built-in-device-options"><em>Built-in Device Options</em></h3>
+<p>Permet d&rsquo;activer ou certains périphériques de la carte-mère, notamment le haut-parleur des &ldquo;bips&rdquo; système.</p>
+<h3 id="port-options"><em>Port Options</em></h3>
+<p>Permet d&rsquo;activer ou désactiver les différents ports (SATA, USB, série&hellip;) de la carte-mère.</p>
+<h1 id="exercice">Exercice</h1>
+<p>Configurez le système conformément aux paramètres suivants:</p>
+<ul>
+<li>DVD absent de la séquence de démarrage</li>
+<li>Langue et clavier français</li>
+<li>Horloge à la bonne heure</li>
+<li>Mot de passe: <code>1x2y3z!</code></li>
+<li>&ldquo;Bip&rdquo; système désactivé</li>
+</ul>
+
+  <footer class="footline">
+              <i class='fa-fw fas fa-calendar'></i> Aug 20, 2025
+  </footer>
+</article>
+        </div>
+      </main>
+    </div>
+    <aside id="R-sidebar" class="default-animation">
+      <div id="R-header-topbar" class="default-animation"></div>
+      <div id="R-header-wrapper" class="default-animation">
+        <div id="R-header" class="default-animation">
+          <a id="R-logo" class="R-default" href="/113/index.html">
+            <div class="logo-title">420113 - Notes</div>
+          </a>
+        </div>
+        <search><form action="/113/search/index.html" method="get">
+          <div class="searchbox default-animation">
+            <button class="search-detail" type="submit" title="Search (CTRL+ALT+f)"><i class="fas fa-search"></i></button>
+            <label class="a11y-only" for="R-search-by">Search</label>
+            <input data-search-input id="R-search-by" name="search-by" class="search-by" type="search" placeholder="Search...">
+            <button class="search-clear" type="button" data-search-clear="" title="Clear search"><i class="fas fa-times" title="Clear search"></i></button>
+          </div>
+        </form></search>
+      </div>
+      <div id="R-homelinks" class="default-animation homelinks">
+        <div class="R-menu-divider default-animation">
+          <hr class="padding">
+        </div>
+        <div class="R-sidebarmenu R-shortcutmenu-homelinks">
+          <ul class="space collapsible-menu">
+            <li class="" data-nav-id="/113/index.html"><a class="padding" href="/113/index.html"><i class="fa-fw fas fa-home"></i> Home</a></li>
+          </ul>
+        </div>
+        <div class="R-menu-divider default-animation">
+          <hr class="padding">
+        </div>
+        <div class="R-sidebarmenu R-shortcutmenu-headercontrols">
+          <ul class="">
+          </ul>
+        </div>
+        <div class="R-menu-divider default-animation">
+          <hr class="padding">
+        </div>
+      </div>
+      <div id="R-content-wrapper" class="highlightable">
+        <div class="R-sidebarmenu R-shortcutmenu-main">
+          <ul class="enlarge morespace collapsible-menu">
+            <li class="" data-nav-id="/113/materiel/index.html"><a class="padding" href="/113/materiel/index.html">Matériel</a><ul id="R-subsections-9e807690ebe93b13a668e078ba6e2443" class="collapsible-menu"></ul></li>
+            <li class="active " data-nav-id="/113/bios/index.html"><a class="padding" href="/113/bios/index.html">BIOS</a></li>
+            <li class="" data-nav-id="/113/peripherique/index.html"><a class="padding" href="/113/peripherique/index.html">Péripherique</a></li>
+            <li class="" data-nav-id="/113/virtualisation/index.html"><a class="padding" href="/113/virtualisation/index.html">Virtualisation</a></li>
+            <li class="" data-nav-id="/113/systeme-exploitation/index.html"><a class="padding" href="/113/systeme-exploitation/index.html">Système Exploitation</a></li>
+            <li class="" data-nav-id="/113/orientation/index.html"><a class="padding" href="/113/orientation/index.html">Linux</a></li>
+            <li class="" data-nav-id="/113/bash/index.html"><a class="padding" href="/113/bash/index.html">Bash</a></li>
+          </ul>
+        </div>
+        <div class="R-sidebarmenu R-shortcutmenu-shortcuts">
+          <ul class="space collapsible-menu">
+          </ul>
+        </div>
+        <div id="R-footer-margin"></div>
+        <div class="R-menu-divider default-animation">
+          <hr class="padding">
+        </div>
+        <div class="R-sidebarmenu R-shortcutmenu-footercontrols">
+          <ul class="">
+            <li class="R-variantswitcher">
+              <div class="padding menu-control">
+                <i class="fa-fw fas fa-paint-brush"></i>
+                <span>&nbsp;</span>
+                <div class="control-style">
+                  <label class="a11y-only" for="R-select-variant">Theme</label>
+                  <select id="R-select-variant">
+                    <option id="R-select-variant-relearn-auto" value="relearn-auto" selected>Relearn Light/Dark</option>
+                    <option id="R-select-variant-zen-light" value="zen-light">Zen Light</option>
+                    <option id="R-select-variant-zen-dark" value="zen-dark">Zen Dark</option>
+                    <option id="R-select-variant-neon" value="neon">Neon</option>
+                    <option id="R-select-variant-learn" value="learn">Learn</option>
+                  </select>
+                </div>
+                <div class="clear"></div>
+              </div>
+              <script>window.relearn.markVariant();</script>
+            </li>
+          </ul>
+        </div>
+<div id="R-footer"><p>Built with <a href="https://github.com/McShelby/hugo-theme-relearn" title="love"><i class="fas fa-heart"></i></a> by <a href="https://gohugo.io/">Hugo</a></p></div>
+      </div>
+    </aside>
+    <script src="/113/js/clipboard/clipboard.min.js?1755784191" defer></script>
+    <script src="/113/js/perfect-scrollbar/perfect-scrollbar.min.js?1755784191" defer></script>
+    <script src="/113/js/theme.js?1755784191" defer></script>
+  </body>
+</html>
